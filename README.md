@@ -38,8 +38,8 @@ We implement a modular pipeline for running experiments across multiple LLM prov
 ### 1. Clone this repository
 
 ```bash
-git clone <repository-url>
-cd CogGap
+git clone https://github.com/Mael7307/knowledge-reasoning-ctnli.git
+cd knowledge-reasoning-ctnli
 ```
 
 ### 2. Install dependencies
@@ -362,4 +362,5 @@ If you use this framework in your research, please cite our paper:
   year={2025}
 }
 ```
+
 
