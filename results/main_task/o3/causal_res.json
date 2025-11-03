@@ -1,0 +1,172 @@
+{
+  "1": {
+    "premise": "Outcome Measurement: Percentage of Participants With a Response Within 10 Days of First Dose of Denosumab. Response is defined as corrected serum calcium (CSC) ≤ 11.5 mg/dL within 10 days after the first dose of denosumab. For all CSC values, if albumin was ≤ 4 g/dL, the following formula was used to calculate CSC: CSC = Total serum calcium [mg/dL] + (0.8 × (4 - serum albumin [g/dL])). Time frame: 10 days. Results: Overall Number of Participants Analyzed: 33. Unit of Measure: percentage of participants: 63.6% (95% CI: 45.1 to 79.6).",
+    "statement": "Denosumab corrects serum calcium levels in participants",
+    "label": "neutral",
+    "responses": [
+      "output: entailment",
+      "The premise reports that 63.6 % of the study participants had their serum calcium corrected (CSC ≤ 11.5 mg/dL) within 10 days after receiving denosumab.  \nTherefore, it is true that denosumab corrects serum calcium levels in (some) participants.  \n\noutput: entailment",
+      "The premise reports that 63.6 % of the 33 participants achieved corrected serum calcium levels within 10 days after receiving denosumab, demonstrating that denosumab does correct serum calcium levels in participants (at least for a substantial proportion of them). Hence the statement is supported. \n\noutput: entailment",
+      "The premise shows that after receiving denosumab, 63.6 % of the 33 participants achieved a corrected serum calcium ≤ 11.5 mg/dL within 10 days, which demonstrates that denosumab does correct serum calcium levels in (at least some) participants.  \noutput: entailment",
+      "output: entailment",
+      "The premise reports that 63.6 % of participants experienced corrected serum calcium levels within 10 days after receiving denosumab, demonstrating that denosumab does bring about correction of serum calcium in participants. This supports the statement that “Denosumab corrects serum calcium levels in participants.” \n\noutput: entailment",
+      "output: entailment",
+      "The premise reports that 63.6 % of participants achieved corrected serum calcium after denosumab, meaning it worked for some but not all. The statement broadly claims that denosumab corrects serum calcium levels in participants without specifying “some” or “all.” Because the premise does not establish that it works for every participant, the statement is not strictly entailed, nor is it contradicted. \n\noutput: neutral",
+      "",
+      "output: entailment"
+    ]
+  },
+  "2": {
+    "premise": "Adverse Events 1: Total: 4/11 (36.36%). Blood bilirubin increased 1/11 (9.09%), Febrile neutropenia 1/11 (9.09%), Ejection fraction decreased 1/11 (9.09%), Supraventricular and nodal arrhythmia (Sinus tachycardia) 1/11 (9.09%), Sepsis 1/11 (9.09%), Lymphocyte count decreased 1/11 (9.09%), Neutrophil count decreased 1/11 (9.09%), Neutrophils/granulocytes (ANC/AGC) 1/11 (9.09%).",
+    "statement": "The treatment was effective, although carries associated risks to hematologic health, heart rhythm, and immune response.",
+    "label": "neutral",
+    "responses": [
+      "output: neutral",
+      "The premise lists adverse events indicating risks to hematologic health, heart rhythm, and immune response, but it provides no information about the treatment’s effectiveness. Therefore, the statement introduces new information (effectiveness) that is neither supported nor contradicted by the premise.\n\noutput: neutral",
+      "output: neutral",
+      "The premise lists adverse events involving hematologic parameters, heart rhythm disturbances, and immune-related issues, which aligns with the statement’s claim that the treatment carries those risks. However, the premise provides no information about whether the treatment was effective. Therefore, the relationship is not fully supported or contradicted. \n\noutput: neutral",
+      "output: neutral",
+      "output: neutral",
+      "The premise lists side effects affecting blood counts, heart rhythm, and immune-related infection, which aligns with part of the statement. However, the premise says nothing about the treatment’s effectiveness, so the whole statement is neither fully supported nor contradicted.  \noutput: neutral",
+      "output: neutral",
+      "output: neutral",
+      "output: neutral"
+    ]
+  },
+  "3": {
+    "premise": "Outcome Measurement: Proportion of Patients With Blood Pressure <140/90 mmHg at Week 12. Blood pressure was measured at baseline and at week 12 after starting amlodipine. Time Frame: 12 weeks. Results: 70.2% of 47 patients had blood pressure <140/90 mmHg at week 12. 95% CI: 56.4 to 81.8.",
+    "statement": "Amlodipine lowers blood pressure in patients.",
+    "label": "neutral",
+    "responses": [
+      "The premise reports the percentage of patients who achieved blood pressure below 140/90 mmHg after 12 weeks on amlodipine but does not explicitly state whether their blood pressure was higher at baseline or that it fell over time. Therefore, the premise does not guarantee that amlodipine lowered blood pressure; it only reports a snapshot of control at week 12. \n\noutput: neutral",
+      "output: neutral",
+      "The premise reports that after 12 weeks on amlodipine 70.2 % of patients had blood pressure below 140/90 mmHg. It does not explicitly state what their blood pressure was before treatment, so it does not strictly guarantee that amlodipine lowered their blood pressure. Hence the statement is not definitively supported nor contradicted. \n\noutput: neutral",
+      "The premise reports that after 12 weeks on amlodipine, 70.2 % of patients had blood pressure below 140/90 mmHg, but it does not provide the baseline blood-pressure values to show whether their blood pressure actually decreased. Therefore, the premise does not definitively establish that amlodipine lowers blood pressure; it only indicates patients’ status at week 12. Relationship is indeterminate.  \noutput: neutral",
+      "output: neutral",
+      "The premise reports that after patients started taking amlodipine, their blood pressure was measured again at week 12 and 70.2 % now had pressures below 140/90 mmHg. This indicates the drug brought many patients’ blood pressure down, so the statement that “Amlodipine lowers blood pressure in patients” is supported by the evidence.  \noutput: entailment",
+      "output: neutral",
+      "output: neutral",
+      "The premise reports that after 12 weeks of treatment with amlodipine, 70.2 % of patients had blood pressure below 140/90 mmHg, but it does not specify the baseline blood‐pressure values or explicitly state that blood pressure decreased. Therefore, it is not certain from the given information alone that amlodipine lowered blood pressure; it is only suggestive. Hence, the relationship is neutral.\n\noutput: neutral",
+      "Based on the information, we only know the proportion controlled after 12 weeks; we have no baseline data to show whether blood pressure actually decreased. So the premise does not confirm or contradict that amlodipine lowers blood pressure. \n\noutput: neutral"
+    ]
+  },
+  "4": {
+    "premise": "Outcome Measurement: Percentage of Patients With HbA1c <7% After 24 Weeks of Treatment With Sitagliptin. HbA1c levels were assessed at baseline and at the end of 24 weeks. Time Frame: 24 weeks. Results: 58.3% of 60 patients achieved HbA1c <7%. 95% CI: 44.9 to 70.9.",
+    "statement": "Sitagliptin causes a reduction in HbA1c levels in patients.",
+    "label": "neutral",
+    "responses": [
+      "output: neutral",
+      "The premise reports that after 24 weeks of sitagliptin treatment, 58.3 % of patients had HbA1c below 7 %. It does not give the baseline HbA1c data or explicitly state that HbA1c levels fell. Therefore the premise does not confirm (or deny) that sitagliptin caused a reduction in HbA1c. \n\noutput: neutral",
+      "output: neutral",
+      "The premise reports that after 24 weeks of sitagliptin treatment, 58.3 % of patients had HbA1c < 7 %, but it does not explicitly state that their HbA1c was reduced from baseline or that sitagliptin caused the reduction. Thus, the statement is not directly supported nor contradicted by the premise. \n\noutput: neutral",
+      "output: neutral",
+      "The premise reports only that 58.3 % of patients had HbA1c < 7 % after 24 weeks on sitagliptin. It does not specify what their HbA1c levels were before treatment or explicitly state a decrease occurred, so the premise doesn’t guarantee that sitagliptin produced a reduction. Therefore the statement is not entailed, nor contradicted; it is simply not supported by the given information.  \noutput: neutral",
+      "output: neutral",
+      "output: neutral",
+      "The premise reports the percentage of patients who achieved HbA1c <7% after sitagliptin treatment but does not state whether HbA1c actually decreased from baseline or establish causation. Therefore, it neither confirms nor contradicts the claim that sitagliptin causes a reduction in HbA1c levels.  \noutput: neutral",
+      "output: neutral"
+    ]
+  },
+  "5": {
+    "premise": "Adverse Events Summary: Total: 5/15 (33.33%). Elevated liver enzymes 2/15 (13.33%), Nausea 1/15 (6.67%), Thrombocytopenia 1/15 (6.67%), Bradycardia 1/15 (6.67%), Hypokalemia 1/15 (6.67%).",
+    "statement": "The treatment proved effective, though some patients experienced issues with liver function, heart rate, and electrolyte balance.",
+    "label": "neutral",
+    "responses": [
+      "output: neutral",
+      "output: neutral",
+      "output: neutral",
+      "The premise lists adverse events affecting liver function (elevated liver enzymes), heart rate (bradycardia), and electrolyte balance (hypokalemia), which aligns with the statement’s mention of such issues. However, the premise says nothing about the treatment’s effectiveness. Therefore, the statement’s claim that “The treatment proved effective” is not supported or contradicted by the premise. \n\noutput: neutral",
+      "output: neutral",
+      "output: neutral",
+      "output: neutral",
+      "output: neutral",
+      "The premise lists adverse events involving liver enzymes, heart rate (bradycardia), and electrolyte balance (hypokalemia), matching the claim that “some patients experienced issues” in those areas.  \nHowever, the premise says nothing about the treatment’s overall effectiveness, so that part of the statement is neither supported nor contradicted.\n\noutput: neutral",
+      "output: neutral"
+    ]
+  },
+  "6": {
+    "premise": "Adverse Events Summary: 6/20 (30.00%). Headache 3/20 (15.00%), Fatigue 2/20 (10.00%), Rash 1/20 (5.00%). All adverse events were Grade 1 or 2.",
+    "statement": "The drug was effective and safe, but commonly caused mild side effects such as headache and fatigue.",
+    "label": "neutral",
+    "responses": [
+      "The premise lists mild adverse events (headache and fatigue among them), but it says nothing about the drug’s effectiveness. Because the statement asserts effectiveness (and overall safety) beyond what is provided, the relationship is not entailed nor contradicted. \n\noutput: neutral",
+      "output: neutral",
+      "output: neutral",
+      "The premise provides data regarding mild side effects (headache and fatigue) but says nothing about the drug’s effectiveness. Therefore, the statement’s claim that the drug was “effective” is not supported nor contradicted by the premise. Hence, the relationship is neutral.\n\noutput: neutral",
+      "The premise reports only mild (Grade 1–2) adverse events such as headache and fatigue, which is compatible with the statement’s claim that the drug “commonly caused mild side effects such as headache and fatigue.” However, the premise provides no information about the drug’s effectiveness, so the claim that it was “effective” is not supported or contradicted. Thus the relationship is neutral.\n\noutput: neutral",
+      "output: neutral",
+      "output: neutral",
+      "output: neutral",
+      "The premise reports only the incidence and severity of adverse events (all mild) and does not provide any information about the drug’s effectiveness or overall safety profile. Therefore, the statement, which asserts that the drug was effective and safe, contains information not supported or contradicted by the premise. Hence, the relationship is neutral. \n\noutput: neutral",
+      "The premise mentions mild side effects such as headache and fatigue, but it does not provide any information about the drug’s effectiveness or overall safety. Therefore, the statement adds new information that is not present in the premise. \n\noutput: neutral"
+    ]
+  },
+  "7": {
+    "premise": "Treatment-Emergent Adverse Events: 7/18 (38.89%). Anemia 2/18 (11.11%), Hypertension 2/18 (11.11%), Dizziness 1/18 (5.56%), Insomnia 1/18 (5.56%), Constipation 1/18 (5.56%).",
+    "statement": "While the treatment was beneficial, patients frequently experienced elevated blood pressure and sleep disturbances.",
+    "label": "neutral",
+    "responses": [
+      "The premise lists hypertension (elevated blood pressure) in only 2 out of 18 patients and insomnia (sleep disturbance) in only 1 out of 18 patients, which is a low incidence, not “frequently.” Therefore, the statement’s claim about frequent elevated blood pressure and sleep disturbances is contradicted by the data. \n\noutput: contradiction",
+      "The premise reports hypertension in 2 of 18 patients (≈11 %) and insomnia in 1 of 18 patients (≈6 %), which indicates these events were infrequent.  \nThe statement claims patients “frequently experienced elevated blood pressure and sleep disturbances,” directly conflicting with the low incidence reported.  \n\noutput: contradiction",
+      "The premise reports hypertension in 11% of patients and insomnia in 5.6%. The statement claims that patients “frequently experienced” elevated blood pressure and sleep disturbances, implying a higher prevalence than the data support. Hence, the statement conflicts with the premise.  \noutput: contradiction",
+      "The premise reports hypertension in 2 of 18 patients (11.11%) and insomnia in 1 of 18 patients (5.56%), which is not “frequent.” The statement claims these effects were frequent, so it conflicts with the data. \n\noutput: contradiction",
+      "output: contradiction",
+      "The premise lists hypertension in 11% of patients and insomnia in 6%, which is relatively infrequent. The statement claims patients frequently experienced those issues. This directly conflicts with the data. \n\noutput: contradiction",
+      "The premise reports only 2 of 18 patients with hypertension (≈11 %) and 1 of 18 with insomnia (≈6 %). Describing these events as “frequently experienced” exaggerates their occurrence. Thus the statement conflicts with the premise.\n\noutput: contradiction",
+      "The premise reports hypertension in 2 out of 18 patients (≈11%) and insomnia in 1 out of 18 patients (≈6%), which is not “frequent.” Therefore the statement conflicts with the data given.  \noutput: contradiction",
+      "The premise reports that elevated blood pressure (hypertension) occurred in only 11.11% of patients and sleep disturbances (insomnia) in 5.56% of patients, which is not “frequent.”  \nThe statement claims these events were frequently experienced.  \nTherefore, the statement conflicts with the data in the premise.  \n\noutput: contradiction",
+      "The premise shows low incidences of hypertension (11.11%) and insomnia (5.56%), whereas the statement claims patients frequently experienced elevated blood pressure and sleep disturbances. This conflicts with the data. \n\noutput: contradiction"
+    ]
+  },
+  "8": {
+    "premise": "Outcome: Proportion of patients achieving LDL cholesterol <100 mg/dL after 8 weeks of atorvastatin therapy. Results: 52.4% (11/21) of patients achieved the target. Time frame: 8 weeks.",
+    "statement": "Atorvastatin effectively lowers LDL cholesterol in most patients.",
+    "label": "neutral",
+    "responses": [
+      "The premise states that 52.4 % of patients (a majority) reached a target LDL level after 8 weeks of atorvastatin treatment, which supports the claim that atorvastatin effectively lowers LDL cholesterol in most patients.\n\noutput: entailment",
+      "The premise reports that 52.4% of patients (a majority) reached the LDL target after atorvastatin therapy, which supports the claim that it effectively lowers LDL cholesterol in most patients.  \noutput: entailment",
+      "The premise reports that 52.4 % (11/21) of patients who took atorvastatin achieved the LDL-C target of <100 mg/dL after 8 weeks. Since more than half of the patients reached the goal, this supports the statement that “atorvastatin effectively lowers LDL cholesterol in most patients.” Thus the statement is supported by (entailed by) the premise. \n\noutput: entailment",
+      "The premise reports that 52.4 % (11/21) of the studied patients reached an LDL-cholesterol target after eight weeks of atorvastatin.  \nThe statement makes a broader, more general claim that atorvastatin effectively lowers LDL cholesterol in most patients overall.  \nBecause the premise is limited to a small sample and does not necessarily justify a universal conclusion about “most patients,” the premise does not conclusively entail the statement, nor does it contradict it.  \n\noutput: neutral",
+      "The premise reports that 52.4 % of patients (more than half) reached the LDL target after atorvastatin therapy, which supports the claim that it effectively lowers LDL in most patients.  \noutput: entailment",
+      "output: neutral",
+      "The premise reports that 52.4 % of 21 patients reached an LDL-C target within 8 weeks. While this indicates some effectiveness in that particular small group, it does not establish that atorvastatin lowers LDL cholesterol effectively in “most patients” in general. The general claim is therefore not fully supported by the limited data given.\n\noutput: neutral",
+      "The premise reports that 52.4 % (11/21) of patients reached an LDL-C target after 8 weeks on atorvastatin.  \nThe statement makes a broader, generic claim that atorvastatin effectively lowers LDL cholesterol in most patients.  \nThe limited result (just over half in a small sample) does not necessarily establish that the drug is effective in “most” patients in general, nor does it define “effectively lowers.” Thus the premise does not firmly support or contradict the statement.  \n\noutput: neutral",
+      "The premise reports that 52.4 % (11/21) of patients reached the LDL target after atorvastatin therapy, which means a majority of the treated patients experienced effective LDL reduction. This supports the statement that atorvastatin effectively lowers LDL cholesterol in most patients. \n\noutput: entailment",
+      "The premise reports that 52.4 % (11/21) of patients on atorvastatin reached an LDL goal in 8 weeks. Since this indicates more than half the patients had effective LDL lowering, it supports the claim that “most patients” experience effective LDL reduction. \n\noutput: entailment"
+    ]
+  },
+  "9": {
+    "premise": "Outcome: Rate of wound healing at Day 14 following topical application of silver sulfadiazine. 40% (8/20) of wounds showed full epithelialization by Day 14. Time frame: 14 days.",
+    "statement": "Silver sulfadiazine accelerates wound healing within two weeks.",
+    "label": "neutral",
+    "responses": [
+      "output: neutral",
+      "The premise merely reports that 40 % of the treated wounds were fully epithelialized after 14 days; it gives no information about whether this represents an acceleration relative to another treatment or to natural healing. Therefore the premise neither confirms nor contradicts the statement that silver sulfadiazine accelerates wound healing within two weeks.  \n\noutput: neutral",
+      "The premise merely reports that 40 % of wounds treated with silver sulfadiazine were fully epithelialized after 14 days.  \nIt gives no comparison to untreated wounds or alternative treatments, so it does not establish whether healing was “accelerated.”  \nTherefore, the statement is neither entailed nor contradicted by the premise.  \n\noutput: neutral",
+      "output: neutral",
+      "output: neutral",
+      "output: neutral",
+      "The premise reports that 40 % of wounds treated with silver sulfadiazine were fully epithelialized by day 14, but gives no comparison or baseline to determine whether healing was accelerated. Therefore the statement about acceleration is not supported nor contradicted by the premise.\n\noutput: neutral",
+      "output: neutral",
+      "The premise only states that 40 % of wounds were fully epithelialized after 14 days with silver sulfadiazine. It gives no information about whether healing was “accelerated” compared with any control or usual course. Therefore the premise neither supports nor contradicts the claim that the drug accelerates healing within two weeks.  \noutput: neutral",
+      "output: neutral"
+    ]
+  },
+  "10": {
+    "premise": "Outcome: Percentage of participants with pain reduction ≥30% on a 10-point scale at Week 6 following treatment with oral tramadol. 65% (13/20) met the pain reduction threshold. No control group included.",
+    "statement": "Oral tramadol reduced pain levels significantly by Week 6.",
+    "label": "neutral",
+    "responses": [
+      "The premise reports that 65 % of participants achieved at least a 30 % pain reduction with oral tramadol by Week 6, but it does not state whether this reduction was statistically significant or clinically interpreted as “significant.” Therefore the premise does not entail (nor contradict) the claim of a “significant” reduction. \n\noutput: neutral",
+      "The premise reports that 65 % of participants achieved at least a 30 % pain reduction by Week 6, but it does not state whether this reduction was statistically significant (and there is no control group). Therefore, the premise neither confirms nor denies the statement’s claim of a significant reduction.\n\noutput: neutral",
+      "The premise reports that 65 % of participants achieved a ≥30 % pain reduction by Week 6, but it does not mention statistical significance or provide a comparison group. Therefore, while some pain reduction is reported, it is not explicitly stated to be “significant,” so the statement is not fully supported nor contradicted. \n\noutput: neutral",
+      "output: neutral",
+      "The premise reports that 65 % of participants experienced at least a 30 % pain reduction by Week 6, but it does not state that the reduction was statistically significant. Therefore, the claim that tramadol “reduced pain levels significantly” is not supported or contradicted by the given information. \n\noutput: neutral",
+      "The premise reports that 65 % of participants achieved at least a 30 % reduction in pain at Week 6, which is generally interpreted as a clinically meaningful (i.e., significant) decrease in pain. Therefore, the statement that oral tramadol reduced pain levels significantly by Week 6 is supported by the premise.\n\noutput: entailment",
+      "The premise reports that 65 % of participants achieved a ≥30 % pain reduction after 6 weeks of oral tramadol, but it does not state whether this reduction was statistically significant. Therefore, the premise neither confirms nor denies the statement’s claim of a “significant” reduction. \n\noutput: neutral",
+      "output: neutral",
+      "The premise reports that 65 % of participants experienced at least a 30 % pain reduction after taking oral tramadol, but it does not specify whether the reduction was statistically significant. Therefore, whether pain was reduced “significantly” cannot be confirmed from the given information. \n\noutput: neutral",
+      "output: neutral"
+    ]
+  }
+}

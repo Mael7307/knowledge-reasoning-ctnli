@@ -1,0 +1,172 @@
+{
+  "1": {
+    "premise": "78-year-old patient with stage IV HER2-positive breast cancer receiving daily paclitaxel at 315 mg/m² for 12 weeks, along with standard trastuzumab therapy (initial loading dose of 4 mg/kg followed by 2 mg/kg weekly for 12 weeks, then 6 mg/kg every 3 weeks for 40 weeks).",
+    "statement": "The patient is expected to experience clinical benefit from their treatment regimen, leading to disease stabilization and improved overall prognosis.",
+    "label": "contradiction",
+    "responses": [
+      "output: neutral",
+      "output: neutral",
+      "The premise describes a specific treatment regimen for a patient with stage IV breast cancer. The statement describes a potential outcome of this treatment (clinical benefit, disease stabilization, improved prognosis). While this is the intended goal of the treatment described, the premise itself does not state that this outcome is expected or guaranteed. Cancer treatment outcomes are variable and not certain. The premise only states what treatment is being given, not what the expected result is. Therefore, the premise does not provide enough information to confirm or deny the statement.\n\noutput: neutral",
+      "The premise describes the patient's condition (stage IV cancer) and the specific treatment regimen they are receiving. The statement makes a prediction about the outcome of this treatment, claiming the patient is expected to experience clinical benefit.\n\nThe premise does not contain any information about the expected prognosis or outcome. While this treatment is administered with the *hope* of achieving clinical benefit, the premise itself does not state that this outcome is expected. The treatment could succeed or fail. Therefore, the premise does not entail the statement, nor does it contradict it.\n\noutput: neutral",
+      "output: neutral",
+      "output: neutral",
+      "output: neutral",
+      "output: contradiction",
+      "output: neutral",
+      "output: neutral"
+    ]
+  },
+  "2": {
+    "premise": "65-year-old male with non-Hodgkin lymphoma receiving cyclophosphamide at 415mg/m² intravenously on Days 1–5 of each 21-day cycle, for 4 cycles.",
+    "statement": "The treatment is expected to result in some reduction in lymph node size, with durable response and extended survival.",
+    "label": "contradiction",
+    "responses": [
+      "output: neutral",
+      "The premise describes the specific treatment a patient is receiving for non-Hodgkin lymphoma. The statement describes the expected outcome of such a treatment. While the stated outcomes (reduction in lymph node size, durable response, extended survival) are the intended goals of chemotherapy for lymphoma, the premise itself does not contain any information about the expected results or prognosis. The premise only states the facts of the treatment regimen. Therefore, the statement is not directly entailed by the premise, nor does it contradict it.\n\noutput: neutral",
+      "output: neutral",
+      "output: neutral",
+      "output: neutral",
+      "The premise describes a specific treatment plan for a patient with non-Hodgkin lymphoma. The statement describes the expected positive outcomes of a treatment for lymphoma. The premise does not contain any information about the expected results of the treatment, so it neither confirms nor denies the statement.\n\noutput: neutral",
+      "output: neutral",
+      "output: neutral",
+      "The premise describes a specific treatment plan for a patient with non-Hodgkin lymphoma. The statement describes the expected results of a treatment. While the stated expectations are a plausible goal for the treatment described in the premise, the premise itself does not contain any information about the expected outcomes. The statement introduces new information (the expectation of a positive outcome) that is not guaranteed or mentioned in the premise. Therefore, the statement is neither entailed nor contradicted by the premise.\n\noutput: neutral",
+      "output: neutral"
+    ]
+  },
+  "3": {
+    "premise": "68-year-old female with type 2 diabetes and chronic kidney disease (eGFR 25 mL/min/1.73m²) receiving metformin 1000mg twice daily.",
+    "statement": "The treatment is expected to improve glycemic control, reduce cardiovascular risk, and provide long-term kidney protection.",
+    "label": "contradiction",
+    "responses": [
+      "output: neutral",
+      "output: neutral",
+      "The premise describes a patient's medical condition and current medication. The statement describes the expected outcomes of a treatment. The premise does not state what the goals of treatment are, nor does it confirm or deny that any treatment is expected to have the effects listed in the statement. The statement could be referring to a new treatment being considered for this patient, or it could be a general statement unrelated to this specific patient's plan. Therefore, the premise does not provide enough information to determine if the statement is true or false.\n\noutput: neutral",
+      "output: neutral",
+      "The premise describes a patient with severe chronic kidney disease (eGFR of 25), which is stage 4. Standard medical guidelines recommend discontinuing metformin when a patient's eGFR falls below 30 mL/min/1.73m² due to the increased risk of lactic acidosis. Therefore, the treatment described in the premise (metformin) is contraindicated for this patient and would not be considered a treatment for \"long-term kidney protection.\" In fact, it poses a significant risk. The statement's claim that the treatment is expected to provide kidney protection is in direct opposition to the medical reality of the situation described in the premise.\n\noutput: contradiction",
+      "output: neutral",
+      "The premise describes a patient's medical condition and current medication. The statement describes the expected outcomes of a treatment. The premise does not specify what \"the treatment\" mentioned in the statement is. It could be a new treatment being proposed for this patient, but the premise does not contain this information. Therefore, the premise does not provide enough information to confirm or deny the statement.\n\noutput: neutral",
+      "The premise describes a patient's current condition and medication. The statement describes the expected outcomes of a treatment. The premise does not contain any information about the expected outcomes of the treatment being administered or any other potential treatment. Therefore, the premise neither supports nor refutes the statement.\n\noutput: neutral",
+      "output: neutral",
+      "output: neutral"
+    ]
+  },
+  "4": {
+    "premise": "45‑year‑old patient with squamous cell carcinoma receiving weekly cetuximab at 250mg/m² and cisplatin at 250mg/m² daily for 7 days.",
+    "statement": "The patient is expected to show partial regression of the tumor, with a favorable clinical response and improved progression-free survival.",
+    "label": "contradiction",
+    "responses": [
+      "output: neutral",
+      "output: neutral",
+      "output: neutral",
+      "output: neutral",
+      "output: neutral",
+      "output: neutral",
+      "output: neutral",
+      "output: neutral",
+      "The premise describes the patient's condition and the treatment they are receiving. The statement describes the expected outcome of a treatment. The premise does not provide any information about the expected outcome, so it neither supports nor contradicts the statement.\n\noutput: neutral",
+      "output: neutral"
+    ]
+  },
+  "5": {
+    "premise": "72-year-old patient with advanced non-small cell lung cancer receiving cisplatin at 120mg/m² on Day 1 and vinorelbine 30mg/m² on Days 1 and 8 of a 21-day cycle, repeated for 6 cycles.",
+    "statement": "The patient is expected to experience tumor response with improved respiratory function and overall clinical benefit.",
+    "label": "contradiction",
+    "responses": [
+      "output: neutral",
+      "output: neutral",
+      "output: neutral",
+      "output: neutral",
+      "output: neutral",
+      "output: neutral",
+      "output: neutral",
+      "output: neutral",
+      "The premise describes a patient's condition and the specific chemotherapy treatment they are receiving. The statement describes a potential positive outcome of that treatment. However, the premise does not guarantee this outcome. Chemotherapy for advanced cancer is not always successful, and the patient may not experience the expected benefits. Therefore, the statement is a possible outcome but is not entailed by the premise.\n\noutput: neutral",
+      "output: neutral"
+    ]
+  },
+  "6": {
+    "premise": "53-year-old female with triple-negative breast cancer receiving doxorubicin 90mg/m² every week for 8 weeks.",
+    "statement": "The patient is expected to respond well to the regimen, with meaningful tumor shrinkage and sustained clinical benefit.",
+    "label": "contradiction",
+    "responses": [
+      "output: neutral",
+      "output: neutral",
+      "The premise describes a patient's diagnosis and treatment plan. The statement makes a prediction about the outcome of that treatment. While doxorubicin is a treatment for breast cancer, the premise does not provide any information about the patient's prognosis or the expected efficacy of this specific regimen for this specific patient. The statement's claim of an expected good response is additional information not contained in or necessitated by the premise. Therefore, the statement is neither entailed nor contradicted by the premise.\n\noutput: neutral",
+      "The premise states the patient's diagnosis and the treatment they are receiving. The statement makes a prediction about the outcome of that treatment. While the treatment is intended to produce a good outcome, it is not guaranteed. The premise does not provide any information about the patient's prognosis or the expected success rate of the treatment. Therefore, the statement is not necessarily true or false based on the premise alone.\n\noutput: neutral",
+      "output: neutral",
+      "output: neutral",
+      "output: neutral",
+      "The premise provides factual information about a patient's diagnosis and treatment plan. The statement makes a prediction about the outcome of that treatment. While the treatment is administered with the hope of a good outcome, the premise does not provide any information to guarantee or even suggest this expected outcome. Medical treatment outcomes are not certain. Therefore, the statement is not necessarily true or false based on the premise alone.\n\noutput: neutral",
+      "output: neutral",
+      "output: neutral"
+    ]
+  },
+  "7": {
+    "premise": "2-month-old infant diagnosed with metastatic melanoma receiving pembrolizumab 200mg intravenously every 3 weeks.",
+    "statement": "The therapy is expected to induce an immune response against the tumor and improve the clinical outlook.",
+    "label": "contradiction",
+    "responses": [
+      "output: entailment",
+      "output: entailment",
+      "output: entailment",
+      "output: entailment",
+      "The statement describes the purpose and mechanism of action of pembrolizumab, which is a type of immunotherapy. It works by helping the body's immune system to attack cancer cells. Therefore, giving a patient this therapy (the premise) is done with the expectation that it will induce an immune response and improve the clinical outlook (the statement).\n\noutput: entailment",
+      "The premise states that an infant is receiving pembrolizumab for metastatic melanoma. Pembrolizumab is a well-known immunotherapy drug. The mechanism of action for pembrolizumab is to block the PD-1 pathway, which allows the body's own immune system to attack cancer cells. Therefore, the statement that the therapy is expected to induce an immune response against the tumor and improve the clinical outlook is a direct consequence of the known purpose and function of the therapy mentioned in the premise.\n\noutput: entailment",
+      "The premise states that an infant with metastatic melanoma is receiving pembrolizumab. Pembrolizumab is a well-known immunotherapy drug. The mechanism of action for pembrolizumab is to block a pathway that cancer cells use to evade the immune system, thereby inducing an immune response against the tumor. The goal of this therapy is to treat the cancer and thus improve the patient's clinical outlook. The statement accurately describes the expected function and goal of the therapy mentioned in the premise.\n\noutput: entailment",
+      "output: entailment",
+      "output: entailment",
+      "output: entailment"
+    ]
+  },
+  "8": {
+    "premise": "59-year-old male with relapsed acute lymphoblastic leukemia receiving methotrexate 250mg/m² intravenously daily for 10 consecutive days.",
+    "statement": "The treatment is expected to reduce leukemic burden and improve survival prospects.",
+    "label": "contradiction",
+    "responses": [
+      "output: entailment",
+      "The premise states that a patient with relapsed acute lymphoblastic leukemia is receiving methotrexate, a form of chemotherapy. The fundamental purpose of administering chemotherapy to a cancer patient is to reduce the cancer (the leukemic burden) and, as a result, improve their chances of survival. Therefore, the statement that the treatment is expected to have these effects is a direct and necessary inference from the premise.\n\noutput: entailment",
+      "output: entailment",
+      "output: entailment",
+      "output: entailment",
+      "output: entailment",
+      "output: entailment",
+      "output: entailment",
+      "The premise states that a patient with leukemia is receiving a chemotherapy drug (methotrexate). The purpose of administering chemotherapy for cancer is to kill cancer cells (reduce leukemic burden) and, as a result, improve the patient's chances of survival. Therefore, the statement, which describes the expected outcome of the treatment, is a direct consequence of the action described in the premise.\n\noutput: entailment",
+      "output: entailment"
+    ]
+  },
+  "9": {
+    "premise": "64-year-old patient with advanced pancreatic cancer receiving gemcitabine 1250mg/m² intravenously on Days 1–5 every 21 days for four cycles.",
+    "statement": "The treatment is expected to relieve symptoms and prolong overall survival.",
+    "label": "contradiction",
+    "responses": [
+      "The premise describes a specific patient receiving a specific chemotherapy regimen. The statement describes the expected goals of a treatment, which are plausible for the regimen mentioned in the premise (gemcitabine is a standard palliative treatment for advanced pancreatic cancer). However, the premise itself does not state the expected outcome or the purpose of the treatment. It only states the facts of what is being administered. The statement could be true, but it is not information that can be logically derived from the premise alone.\n\noutput: neutral",
+      "The premise describes a specific medical treatment being administered to a patient. The statement describes the general purpose and expected outcome of such a treatment for advanced cancer (palliative care). However, the premise itself does not state the reason for the treatment or its expected effects. While it is a reasonable medical assumption that this is the goal, the premise does not explicitly provide this information. Therefore, the statement is not directly entailed or contradicted by the premise.\n\noutput: neutral",
+      "output: neutral",
+      "output: neutral",
+      "output: neutral",
+      "output: entailment",
+      "output: neutral",
+      "output: neutral",
+      "output: neutral",
+      "The premise describes a specific patient and their treatment regimen. The statement describes the expected outcome of the treatment. The premise does not contain any information about the expected outcomes or goals of the treatment. Therefore, the statement is neither entailed nor contradicted by the premise.\n\noutput: neutral"
+    ]
+  },
+  "10": {
+    "premise": "60-year-old male with head and neck squamous cell carcinoma receiving cisplatin 250mg/m² daily for 7 consecutive days along with standard radiation therapy.",
+    "statement": "The regimen is expected to enhance tumor control and improve survival outcomes.",
+    "label": "contradiction",
+    "responses": [
+      "output: neutral",
+      "The premise describes a standard and aggressive treatment regimen (high-dose cisplatin with radiation) for a serious cancer (head and neck squamous cell carcinoma). Such a treatment is administered with the specific medical goal of controlling the tumor and improving the patient's chances of survival. Therefore, the statement, which describes this expected outcome, is a direct consequence of the action described in the premise.\n\noutput: entailment",
+      "output: neutral",
+      "output: neutral",
+      "output: neutral",
+      "output: entailment",
+      "The premise describes a patient receiving a standard-of-care treatment (chemotherapy with cisplatin and radiation therapy) for a specific type of cancer. The reason any medical treatment regimen is prescribed is the expectation that it will be beneficial to the patient. The statement articulates this expected benefit, which is to control the tumor and improve survival. Therefore, the premise logically implies the statement.\n\noutput: entailment",
+      "The premise describes a specific medical treatment being administered to a patient. The statement describes the goal or expected outcome of that treatment. While this is the likely reason for administering such a regimen, the premise itself does not state the expectation or intended outcome. The premise is a factual description of an action, and the statement is a claim about the purpose of that action, which is not information contained within the premise. Therefore, the premise does not provide enough information to confirm or deny the statement.\n\noutput: neutral",
+      "The premise describes a specific medical procedure being administered to a patient. It is a statement of fact about an action being taken.\n\nThe statement describes the *purpose* or *expected outcome* of the regimen.\n\nThe premise does not state the goal or the expected outcome of the therapy. While it is a reasonable assumption that a cancer therapy is given with the hope of improving survival, the premise itself does not explicitly state this. The treatment could be for palliative purposes (to reduce symptoms without the expectation of improving survival) or as part of a clinical trial where the outcome is uncertain. Because the premise only states what is being done, and not why or with what expectation, we cannot definitively conclude that the statement is true. The statement introduces new information (the expectation) that is not contained within the premise.\n\noutput: neutral",
+      "output: neutral"
+    ]
+  }
+}

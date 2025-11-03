@@ -1,0 +1,172 @@
+{
+  "1": {
+    "premise": "67-year-old male presented with mild lower urinary tract symptoms, including frequency and a weak urinary stream. Digital rectal examination was unremarkable. Blood tests revealed a PSA level of 9.2 ng/mL. The case was reviewed by Consultant Urologist Dr. M. Rahman, who made a diagnosis of prostate cancer based on the PSA result. The patient was informed of the diagnosis and referred to oncology for further management. No imaging or biopsy was arranged at this stage.",
+    "statement": "The patient has prostate cancer",
+    "label": "contradiction",
+    "responses": [
+      "Based on the premise, the patient was diagnosed with prostate cancer. Therefore, the statement “The patient has prostate cancer” is directly supported by the premise. \n\noutput: entailment",
+      "output: entailment",
+      "output: entailment",
+      "The premise explicitly states that \"Dr. M. Rahman … made a diagnosis of prostate cancer\" and that \"The patient was informed of the diagnosis.\" Therefore, it directly supports the statement that \"The patient has prostate cancer.\"\n\noutput: entailment",
+      "The premise reports that the consultant urologist diagnosed the patient with prostate cancer and informed the patient, which directly supports the statement that the patient has prostate cancer.\n\noutput: entailment",
+      "output: entailment",
+      "The premise states that a consultant urologist diagnosed the patient with prostate cancer and informed the patient of this diagnosis. Therefore, the statement “The patient has prostate cancer” is supported by the premise.\n\noutput: entailment",
+      "The premise describes that a consultant urologist diagnosed the patient with prostate cancer and informed the patient. Therefore, the statement that “The patient has prostate cancer” is supported by the premise.\n\noutput: entailment",
+      "The premise explicitly states that the patient was diagnosed with prostate cancer; therefore, the statement is supported by the premise. \n\noutput: entailment",
+      "output: entailment"
+    ]
+  },
+  "2": {
+    "premise": "A 34-year-old male presents to the emergency department with sudden onset chest pain radiating to his left arm, shortness of breath, and diaphoresis. ECG shows ST-elevation in leads II, III, and aVF. Troponin is markedly elevated. The attending physician rules out myocardial infarction and concludes that the patient is experiencing heartburn due to spicy food eaten earlier. The patient is discharged with antacids and advised to avoid chili.",
+    "statement": "The patient is experiencing heartburn.",
+    "label": "contradiction",
+    "responses": [
+      "output: entailment",
+      "The premise states that the attending physician concludes the patient is experiencing heartburn. Therefore, the statement \"The patient is experiencing heartburn\" is supported by the premise.\n\noutput: entailment",
+      "output: entailment",
+      "output: entailment",
+      "The premise explicitly states that the attending physician concludes the patient “is experiencing heartburn.”  \nThe statement repeats this claim.  \nThus, the statement is directly supported by the premise.\n\noutput: entailment",
+      "output: entailment",
+      "The premise explicitly states that the attending physician concludes the patient is experiencing heartburn; therefore, the statement follows directly from the premise. \n\noutput: entailment",
+      "output: entailment",
+      "output: entailment",
+      "The premise explicitly states that the physician concludes the patient is experiencing heartburn. Therefore, the statement is supported by the premise.\n\noutput: entailment"
+    ]
+  },
+  "3": {
+    "premise": "A 66-year-old man with no significant past medical history presents with severe, tearing chest pain radiating to the back. Blood pressure is markedly different between arms. The emergency physician diagnoses musculoskeletal pain and prescribes NSAIDs.",
+    "statement": "The patient has an aortic dissection.",
+    "label": "entailment",
+    "responses": [
+      "output: neutral",
+      "output: neutral",
+      "The premise does not state that the patient has an aortic dissection; it only describes symptoms and a different diagnosis (musculoskeletal pain). The statement goes beyond the information given. \n\noutput: neutral",
+      "output: neutral",
+      "output: neutral",
+      "Based on the premise, the text does not state that the patient actually has an aortic dissection; it only notes a presentation suggestive of one while the physician assigns a different diagnosis. Therefore, the statement is neither confirmed nor explicitly denied. \n\noutput: neutral",
+      "output: neutral",
+      "output: neutral",
+      "output: neutral",
+      "The premise describes symptoms suggestive of an aortic dissection, but it does not state that an aortic dissection is actually present; instead, the physician diagnoses musculoskeletal pain. The statement “The patient has an aortic dissection” is therefore not confirmed nor explicitly denied by the premise. \n\noutput: neutral"
+    ]
+  },
+  "4": {
+    "premise": "A 25-year-old female comes in with fever, flank pain, and dysuria. Urine culture is positive for E. coli. Despite this, the physician suggests that the pain is likely due to a pulled muscle and no antibiotics are prescribed.",
+    "statement": "The patient has a urinary tract infection.",
+    "label": "entailment",
+    "responses": [
+      "output: entailment",
+      "The premise indicates that the urine culture is positive for E. coli, which is diagnostic for a urinary tract infection. Therefore, the statement that “The patient has a urinary tract infection” is supported by the premise.  \noutput: entailment",
+      "The premise describes classic UTI symptoms (fever, flank pain, dysuria) and a urine culture positive for E. coli, which together indicate the presence of a urinary tract infection, even though the physician misattributes the pain. Thus the statement logically follows from the premise.\n\noutput: entailment",
+      "The premise describes a patient with fever, flank pain, dysuria, and a urine culture positive for E. coli—classic findings of a urinary tract infection. Therefore, the statement “The patient has a urinary tract infection” is supported by the information in the premise. \n\noutput: entailment",
+      "The premise describes symptoms typical of a urinary tract infection (fever, dysuria, flank pain) and a urine culture positive for E. coli. These findings directly support the statement that the patient has a urinary tract infection. Therefore, the statement follows from the premise.\n\noutput: entailment",
+      "The premise describes classic symptoms of a urinary tract infection (fever, flank pain, dysuria) and confirms a positive urine culture for E. coli, a common causal organism for UTIs. Therefore, it directly supports the statement that the patient has a urinary tract infection. \n\noutput: entailment",
+      "The premise reports a positive urine culture for E. coli along with classic urinary symptoms (fever, flank pain, dysuria), which together indicate a urinary tract infection. Hence, the statement is supported by the premise. \n\noutput: entailment",
+      "The premise reports that the patient's urine culture is positive for E. coli, which is diagnostic of a urinary tract infection. Therefore, the statement that “The patient has a urinary tract infection” is supported by the information given in the premise.\n\noutput: entailment",
+      "output: entailment",
+      "The premise describes urinary symptoms (fever, flank pain, dysuria) and a urine culture positive for E. coli, which medically indicates a urinary tract infection; therefore the statement is supported by the premise. \n\noutput: entailment"
+    ]
+  },
+  "5": {
+    "premise": "A 59-year-old woman presents with a persistent cough, weight loss, and night sweats. Chest X-ray shows a large mass in the right upper lobe. The clinician diagnoses her with pneumonia and prescribes antibiotics without further workup.",
+    "statement": "The patient has lung cancer.",
+    "label": "entailment",
+    "responses": [
+      "output: neutral",
+      "The premise does not state that the patient has lung cancer, nor does it state that she explicitly does not have lung cancer. Therefore, the truth of the statement cannot be determined from the premise.  \n\noutput: neutral",
+      "The premise describes symptoms and imaging results leading to a clinician’s diagnosis of pneumonia, but it never states that the patient actually has lung cancer or that she definitively does not. Therefore, whether the patient has lung cancer is not resolved by the information given.\n\noutput: neutral",
+      "output: neutral",
+      "output: neutral",
+      "The premise notes a chest mass but only mentions a diagnosis of pneumonia; it neither confirms nor rules out lung cancer. Therefore, the truth of the statement cannot be determined from the given information.  \noutput: neutral",
+      "The premise reports a mass suggestive of possible cancer but states that the clinician diagnosed pneumonia; it neither confirms nor rules out lung cancer. Therefore, the statement is not entailed and not contradicted by the premise.\n\noutput: neutral",
+      "output: neutral",
+      "output: neutral",
+      "output: neutral"
+    ]
+  },
+  "6": {
+    "premise": "A 38-year-old woman presents with episodes of palpitations, anxiety, and sweating. Her blood pressure is 180/110 mm Hg. No labs or imaging are done. The physician diagnoses panic disorder and refers her to a therapist.",
+    "statement": "The patient has panic disorder.",
+    "label": "contradiction",
+    "responses": [
+      "output: entailment",
+      "The premise states that the physician diagnoses the patient with panic disorder, which directly supports the statement that the patient has panic disorder.\n\noutput: entailment",
+      "The premise states that the physician diagnoses the woman with panic disorder. Therefore, the statement “The patient has panic disorder” is supported by the premise.\n\noutput: entailment",
+      "The premise states that \"The physician diagnoses panic disorder,\" which directly supports the statement \"The patient has panic disorder.\" Thus, the statement is entailed by the premise.\n\noutput: entailment",
+      "output: entailment",
+      "The premise explicitly states that the physician diagnoses the patient with panic disorder, which directly supports the statement that the patient has panic disorder.\n\noutput: entailment",
+      "output: entailment",
+      "The premise explicitly states that the physician diagnoses the patient with panic disorder, so the statement is supported by the given information.\n\noutput: entailment",
+      "The premise explicitly states that the physician diagnoses the patient with panic disorder. Therefore, the statement “The patient has panic disorder” is supported by the premise.\n\noutput: entailment",
+      "The premise explicitly states that the physician diagnoses the patient with panic disorder, which directly supports the statement that the patient has panic disorder.\n\noutput: entailment"
+    ]
+  },
+  "7": {
+    "premise": "The patient reported that her persistent cough and weight loss were due to seasonal allergies. However, further workup revealed a mass in the left lung and a biopsy confirmed adenocarcinoma.",
+    "statement": "The patient has seasonal allergies.",
+    "label": "contradiction",
+    "responses": [
+      "output: neutral",
+      "output: neutral",
+      "The premise mentions that the patient claimed her symptoms were due to seasonal allergies but does not confirm whether she actually has seasonal allergies. Therefore, the statement is not clearly supported or contradicted by the premise.\n\noutput: neutral",
+      "output: neutral",
+      "output: neutral",
+      "The premise indicates the patient believed her symptoms were caused by seasonal allergies, but it does not confirm whether she actually has seasonal allergies. Therefore, the truth of the statement cannot be determined from the premise alone.\n\noutput: neutral",
+      "output: neutral",
+      "output: neutral",
+      "output: neutral",
+      "output: neutral"
+    ]
+  },
+  "8": {
+    "premise": "A 60-year-old male underwent knee replacement surgery on June 5, 2023. At his postoperative follow-up on May 30, 2023, he reported no complications and good mobility.",
+    "statement": "The patient followed up after his knee replacement surgery.",
+    "label": "contradiction",
+    "responses": [
+      "The premise explicitly states that the patient had a postoperative follow-up visit, which means he followed up after his knee replacement surgery. Therefore, the statement is supported by the premise.\n\noutput: entailment",
+      "The premise explicitly states that the patient had a postoperative follow-up visit, which necessarily means he followed up after his knee replacement surgery. This directly supports the statement. \n\noutput: entailment",
+      "output: entailment",
+      "The premise states that the patient had a postoperative follow-up visit, which is exactly what the statement claims. Hence, the statement is supported by the premise.  \noutput: entailment",
+      "The premise states that the man had a “postoperative follow-up,” which means he did follow up after his knee replacement surgery, matching the statement. \n\noutput: entailment",
+      "output: contradiction",
+      "output: entailment",
+      "The premise explicitly states that the patient had a postoperative follow-up visit, implying that he followed up after the knee replacement surgery. This directly supports the statement. \n\noutput: entailment",
+      "The premise states that the patient had a postoperative follow-up visit, which necessarily occurs after the knee replacement surgery.  \nThus, the statement “The patient followed up after his knee replacement surgery” is supported by the premise.  \n\noutput: entailment",
+      "The premise explicitly mentions that the man “underwent knee replacement surgery” and that there was a “postoperative follow-up,” so it confirms that a follow-up visit occurred after the surgery. \n\noutput: entailment"
+    ]
+  },
+  "9": {
+    "premise": "A 50-year-old man presents with worsening fatigue, hypotension, and hyperpigmentation of the skin. Laboratory results reveal low cortisol and elevated ACTH levels. The physician diagnoses the patient with depression and prescribes SSRIs.",
+    "statement": "The patient has Addison's disease.",
+    "label": "entailment",
+    "responses": [
+      "The premise describes symptoms and lab findings compatible with Addison’s disease but never states that the patient is actually diagnosed with it; therefore, the statement is not guaranteed by the premise nor contradicted by it.\n\noutput: neutral",
+      "Given the combination of hypotension, hyperpigmentation, low cortisol, and elevated ACTH, the presentation is diagnostic for primary adrenal insufficiency (Addison’s disease). Therefore, the statement that the patient has Addison’s disease logically follows from the premise.  \n\noutput: entailment",
+      "The symptoms (worsening fatigue, hypotension, hyperpigmentation) together with laboratory findings of low cortisol and elevated ACTH are the classic presentation of primary adrenal insufficiency, i.e., Addison’s disease. Therefore, it can be inferred that the patient has Addison’s disease, even though the physician misdiagnosed depression. \n\noutput: entailment",
+      "The premise presents classic clinical features and laboratory findings (low cortisol, high ACTH, fatigue, hypotension, hyperpigmentation) that define primary adrenal insufficiency, i.e., Addison's disease, so the statement is supported by the premise.  \noutput: entailment",
+      "Given the combination of symptoms (fatigue, hypotension, hyperpigmentation) and laboratory findings (low cortisol with elevated ACTH), the clinical picture necessarily corresponds to primary adrenal insufficiency (Addison’s disease), even though the physician mislabels it as depression. Thus, the statement “The patient has Addison's disease” is supported by the premise.\n\noutput: entailment",
+      "The premise describes low cortisol, elevated ACTH, hyperpigmentation and hypotension—findings that define primary adrenal insufficiency (Addison’s disease). Therefore, the statement “The patient has Addison’s disease” is supported by the information, regardless of the physician’s misdiagnosis. \n\noutput: entailment",
+      "The premise lists symptoms (fatigue, hypotension, hyperpigmentation) and lab findings (low cortisol, high ACTH) that are consistent with Addison’s disease, but it never states that the patient actually has Addison’s disease; instead, it says the physician diagnosed depression. Therefore, the premise neither confirms nor denies that the patient truly has Addison’s disease. \n\noutput: neutral",
+      "The laboratory findings of low cortisol and elevated ACTH, together with hyperpigmentation and hypotension, meet the clinical definition of primary adrenal insufficiency (Addison’s disease). Therefore, it follows from the premise that the patient indeed has Addison’s disease. \n\noutput: entailment",
+      "output: entailment",
+      "While the findings described (fatigue, hypotension, hyper-pigmentation, low cortisol, high ACTH) are suggestive of Addison’s disease, the premise never explicitly states that the patient is diagnosed with—or definitively has—Addison’s disease. Therefore the truth of the statement cannot be concluded with certainty from the given information.\n\noutput: neutral"
+    ]
+  },
+  "10": {
+    "premise": "A 22-year-old woman arrives at the emergency department after fainting during exercise. ECG reveals a prolonged QT interval. Her symptoms are attributed to dehydration, and she is discharged with fluids and electrolyte tablets.",
+    "statement": "The patient has long QT syndrome.",
+    "label": "entailment",
+    "responses": [
+      "The premise reports that the woman’s ECG shows a prolonged QT interval, but it does not diagnose long QT syndrome; the prolonged interval is attributed to dehydration instead. Therefore, the premise does not confirm nor deny that she has long QT syndrome. \n\noutput: neutral",
+      "output: neutral",
+      "output: neutral",
+      "output: neutral",
+      "output: neutral",
+      "output: neutral",
+      "output: neutral",
+      "The premise notes that the ECG shows a prolonged QT interval, but it never explicitly diagnoses “long QT syndrome”; the prolongation is attributed to dehydration. This does not rule out the syndrome, yet it does not confirm it either. Therefore, the statement is not entailed nor contradicted by the premise.  \noutput: neutral",
+      "output: neutral",
+      "The premise reports a single episode with a prolonged QT interval attributed to dehydration, but it does not diagnose the patient with long QT syndrome. Therefore, the statement is not necessarily true or false based on the premise. \n\noutput: neutral"
+    ]
+  }
+}

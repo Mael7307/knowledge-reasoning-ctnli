@@ -1,0 +1,172 @@
+{
+  "1": {
+    "premise": "67-year-old male presented with mild lower urinary tract symptoms, including frequency and a weak urinary stream. Digital rectal examination was unremarkable. Blood tests revealed a PSA level of 9.2 ng/mL. The case was reviewed by Consultant Urologist Dr. M. Rahman, who made a diagnosis of prostate cancer based on the PSA result. The patient was informed of the diagnosis and referred to oncology for further management. No imaging or biopsy was arranged at this stage.",
+    "statement": "The patient has prostate cancer",
+    "label": "contradiction",
+    "responses": [
+      "output: entailment",
+      "output: entailment",
+      "output: entailment",
+      "output: entailment",
+      "output: entailment",
+      "output: entailment",
+      "output: entailment",
+      "output: entailment",
+      "output: entailment",
+      "output: entailment"
+    ]
+  },
+  "2": {
+    "premise": "A 34-year-old male presents to the emergency department with sudden onset chest pain radiating to his left arm, shortness of breath, and diaphoresis. ECG shows ST-elevation in leads II, III, and aVF. Troponin is markedly elevated. The attending physician rules out myocardial infarction and concludes that the patient is experiencing heartburn due to spicy food eaten earlier. The patient is discharged with antacids and advised to avoid chili.",
+    "statement": "The patient is experiencing heartburn.",
+    "label": "contradiction",
+    "responses": [
+      "The premise explicitly states that the attending physician concludes the patient is experiencing heartburn. Therefore, the premise directly supports the statement.\n\noutput: entailment",
+      "output: entailment",
+      "output: entailment",
+      "output: entailment",
+      "output: entailment",
+      "output: entailment",
+      "output: entailment",
+      "output: entailment",
+      "output: entailment",
+      "output: entailment"
+    ]
+  },
+  "3": {
+    "premise": "A 66-year-old man with no significant past medical history presents with severe, tearing chest pain radiating to the back. Blood pressure is markedly different between arms. The emergency physician diagnoses musculoskeletal pain and prescribes NSAIDs.",
+    "statement": "The patient has an aortic dissection.",
+    "label": "entailment",
+    "responses": [
+      "The symptoms described in the premise (severe, tearing chest pain radiating to the back and a significant blood pressure difference between arms) are classic signs of an aortic dissection. However, the premise explicitly states that the emergency physician diagnosed the patient with musculoskeletal pain. Since the doctor's diagnosis could be incorrect, the premise does not rule out the possibility that the patient actually has an aortic dissection. Conversely, because the stated diagnosis is musculoskeletal pain, the premise does not confirm an aortic dissection. Therefore, the statement is neither entailed nor contradicted by the premise.\n\noutput: neutral",
+      "The premise describes classic symptoms of an aortic dissection (severe, tearing chest pain radiating to the back, and a blood pressure differential between arms). However, the premise also states that the physician diagnosed the patient with musculoskeletal pain. The physician's diagnosis could be incorrect, and the patient could actually have an aortic dissection. Conversely, the physician's diagnosis could be correct. Since the premise provides evidence that both supports and refutes the statement, but doesn't definitively confirm or deny it, the relationship is neutral.\n\noutput: neutral",
+      "output: neutral",
+      "The premise describes a classic clinical presentation for an aortic dissection (severe, tearing chest pain radiating to the back, and a significant blood pressure difference between the arms). However, the premise also explicitly states that the physician diagnosed the patient with musculoskeletal pain. The physician's diagnosis could be incorrect, and the patient might actually have an aortic dissection. Conversely, the physician's diagnosis could be correct, and the symptoms are from an unusual case of musculoskeletal pain. Because the premise presents conflicting information (symptoms suggesting one condition, diagnosis stating another), it neither confirms nor denies that the patient has an aortic dissection.\n\noutput: neutral",
+      "The symptoms described in the premise (severe, tearing chest pain radiating to the back, and a marked difference in blood pressure between arms) are classic signs of an aortic dissection. However, the premise explicitly states that the physician diagnosed the patient with musculoskeletal pain. The premise does not state whether the physician's diagnosis is correct or incorrect. Therefore, we cannot conclude with certainty that the patient has an aortic dissection, nor can we rule it out. The statement is possible but not guaranteed by the premise.\n\noutput: neutral",
+      "The premise provides classic symptoms and signs of an aortic dissection (severe, tearing chest pain radiating to the back, and a blood pressure differential between arms). However, it also explicitly states that the physician's diagnosis was musculoskeletal pain. Since the provided premise includes a diagnosis that contradicts the statement, but the symptoms strongly support the statement, we cannot be certain of the patient's true condition from the premise alone. The physician could be wrong, or the symptoms could be misleading. Therefore, the premise neither confirms nor denies the statement.\n\noutput: neutral",
+      "The premise describes the classic signs and symptoms of an aortic dissection (severe, tearing chest pain radiating to the back, and a blood pressure differential between arms). However, it explicitly states that the physician made a different diagnosis (musculoskeletal pain). A physician's diagnosis can be incorrect, so the statement that the patient has an aortic dissection does not directly contradict the premise. At the same time, the premise does not confirm the statement is true; it only provides strong clinical evidence for it while stating a different conclusion was reached by the physician. Therefore, the statement's truth is not determined by the premise.\n\noutput: neutral",
+      "The premise describes the classic symptoms of an aortic dissection (severe, tearing chest pain radiating to the back, and a blood pressure differential). However, the premise also states that the physician made a different diagnosis (musculoskeletal pain). Because the physician's diagnosis contradicts the statement, but the clinical signs support it, the premise neither guarantees nor rules out the statement. The physician could be wrong, which is strongly suggested by the symptoms. Therefore, the statement is possible but not certain based on the premise alone.\n\noutput: neutral",
+      "The premise describes symptoms (severe, tearing chest pain radiating to the back, and a marked difference in blood pressure between arms) that are classic signs of an aortic dissection. However, the premise also explicitly states that the physician diagnosed the patient with something else: musculoskeletal pain. The premise does not state whether the physician's diagnosis is correct. Since a diagnosis can be incorrect, the premise does not definitively confirm or deny that the patient has an aortic dissection. The information provided is conflicting, making the relationship neutral.\n\noutput: neutral",
+      "The premise describes symptoms and signs (severe tearing chest pain radiating to the back, blood pressure differential) that are classic for an aortic dissection. However, the premise also explicitly states that the physician made a different diagnosis (\"musculoskeletal pain\"). Because the physician's diagnosis could be incorrect, we cannot be certain from the premise alone whether the patient actually has an aortic dissection or not. The statement is plausible given the symptoms, but it is not entailed by the premise, nor is it directly contradicted, as the premise's diagnosis could be wrong.\n\noutput: neutral"
+    ]
+  },
+  "4": {
+    "premise": "A 25-year-old female comes in with fever, flank pain, and dysuria. Urine culture is positive for E. coli. Despite this, the physician suggests that the pain is likely due to a pulled muscle and no antibiotics are prescribed.",
+    "statement": "The patient has a urinary tract infection.",
+    "label": "entailment",
+    "responses": [
+      "output: entailment",
+      "output: entailment",
+      "output: entailment",
+      "The premise states that the patient's \"Urine culture is positive for E. coli.\" A positive urine culture for E. coli is the definitive diagnosis for a urinary tract infection. The physician's opinion or course of action does not change the factual result of the lab test presented in the premise. Therefore, the premise confirms that the patient has a urinary tract infection.\n\noutput: entailment",
+      "output: entailment",
+      "output: entailment",
+      "output: entailment",
+      "output: entailment",
+      "A positive urine culture for E. coli in a patient with symptoms like dysuria is the definitive diagnosis for a urinary tract infection. The physician's opinion does not change the objective lab results presented in the premise. Therefore, the premise confirms that the patient has a urinary tract infection.\n\noutput: entailment",
+      "A positive urine culture for E. coli, especially in the presence of symptoms like dysuria, fever, and flank pain, is the definitive diagnosis for a urinary tract infection. The physician's opinion or treatment plan does not change the factual diagnosis established by the lab results provided in the premise. Therefore, the premise confirms the statement is true.\n\noutput: entailment"
+    ]
+  },
+  "5": {
+    "premise": "A 59-year-old woman presents with a persistent cough, weight loss, and night sweats. Chest X-ray shows a large mass in the right upper lobe. The clinician diagnoses her with pneumonia and prescribes antibiotics without further workup.",
+    "statement": "The patient has lung cancer.",
+    "label": "entailment",
+    "responses": [
+      "output: neutral",
+      "output: neutral",
+      "The clinician's diagnosis is pneumonia, which contradicts a diagnosis of lung cancer. However, the premise presents a clinical picture (age, symptoms, X-ray finding of a mass) that is highly suspicious for lung cancer, and a diagnosis of pneumonia without further workup could be a misdiagnosis. The premise states the clinician's diagnosis, not the patient's actual underlying condition. Therefore, the patient could still have lung cancer despite the clinician's stated diagnosis. The premise does not provide enough information to definitively confirm or deny the statement.\n\noutput: neutral",
+      "output: neutral",
+      "The premise states that the clinician diagnosed the patient with pneumonia. However, the patient's symptoms (persistent cough, weight loss, night sweats) and the chest X-ray finding (a large mass) are also highly suggestive of lung cancer. The premise does not provide a definitive pathological diagnosis (like a biopsy result). Because the clinician's diagnosis could be incorrect and the evidence for lung cancer is strong but not confirmed, we cannot be certain whether the patient has lung cancer or not based solely on the premise. Therefore, the statement is neither entailed nor contradicted.\n\noutput: neutral",
+      "The premise states that a clinician diagnosed the patient with pneumonia. However, the patient's symptoms (persistent cough, weight loss, night sweats) and the chest X-ray finding (a large mass) are highly suggestive of lung cancer. The clinician's diagnosis could be a misdiagnosis. The premise does not confirm that the patient has lung cancer, but it also does not rule it out. Therefore, the statement is neither entailed nor contradicted by the premise.\n\noutput: neutral",
+      "The premise states that the clinician diagnosed the patient with pneumonia. The statement says the patient has lung cancer. While the symptoms and the mass on the X-ray are highly suggestive of lung cancer, the premise only tells us the clinician's diagnosis, not the patient's actual, definitive condition. The clinician could be wrong, and the patient could have lung cancer, or the clinician could be right. Since the premise does not provide enough information to confirm or deny that the patient has lung cancer, the relationship is neutral.\n\noutput: neutral",
+      "The premise states that a clinician diagnosed the patient with pneumonia. This contradicts the statement that the patient has lung cancer. However, the premise provides significant clinical evidence that could suggest lung cancer (a large mass in a 59-year-old with weight loss). The premise also notes the diagnosis was made \"without further workup,\" which casts doubt on the clinician's diagnosis. Because the clinician's diagnosis is presented as potentially incorrect and the actual underlying condition is not definitively stated, we cannot be certain whether the patient has lung cancer or not. The statement could be true (the clinician misdiagnosed) or false (the clinician was correct). Therefore, the relationship is neutral.\n\noutput: neutral",
+      "output: neutral",
+      "output: neutral"
+    ]
+  },
+  "6": {
+    "premise": "A 38-year-old woman presents with episodes of palpitations, anxiety, and sweating. Her blood pressure is 180/110 mm Hg. No labs or imaging are done. The physician diagnoses panic disorder and refers her to a therapist.",
+    "statement": "The patient has panic disorder.",
+    "label": "contradiction",
+    "responses": [
+      "output: entailment",
+      "output: entailment",
+      "output: entailment",
+      "output: neutral",
+      "output: entailment",
+      "output: entailment",
+      "output: entailment",
+      "output: entailment",
+      "output: entailment",
+      "output: entailment"
+    ]
+  },
+  "7": {
+    "premise": "The patient reported that her persistent cough and weight loss were due to seasonal allergies. However, further workup revealed a mass in the left lung and a biopsy confirmed adenocarcinoma.",
+    "statement": "The patient has seasonal allergies.",
+    "label": "contradiction",
+    "responses": [
+      "output: neutral",
+      "The premise states that the patient's reported cause for her symptoms (seasonal allergies) was incorrect, and the actual cause was adenocarcinoma. However, this does not rule out the possibility that the patient could also have seasonal allergies as a separate, co-existing condition. The premise neither confirms nor denies that the patient has seasonal allergies in general.\n\noutput: neutral",
+      "output: neutral",
+      "output: neutral",
+      "output: neutral",
+      "The premise states that the patient's persistent cough and weight loss were found to be caused by adenocarcinoma, contradicting the patient's initial belief that they were due to seasonal allergies. However, this does not rule out the possibility that the patient also has seasonal allergies, even if they were not the cause of these specific severe symptoms. The premise neither confirms nor denies the presence of seasonal allergies in the patient.\noutput: neutral",
+      "The premise states that the patient *believed* her symptoms were from seasonal allergies, but the actual cause was found to be adenocarcinoma. The premise does not confirm or deny whether the patient also happens to have seasonal allergies as a separate condition. It is possible she has both cancer and allergies, or that she was simply mistaken and only has cancer. Therefore, we cannot determine from the premise whether the statement is true or false.\n\noutput: neutral",
+      "output: neutral",
+      "The premise states that the patient's reported cause for her symptoms (seasonal allergies) was incorrect, and the actual cause was adenocarcinoma. However, this does not rule out the possibility that the patient also has seasonal allergies as a separate, co-existing condition. The premise neither confirms nor denies the existence of seasonal allergies in the patient. Therefore, the statement is not entailed or contradicted by the premise.\n\noutput: neutral",
+      "The premise states that the patient's cough and weight loss were found to be due to cancer, not seasonal allergies as the patient had believed. However, this does not rule out the possibility that the patient has seasonal allergies as a separate, co-existing condition. The premise neither confirms nor denies the existence of seasonal allergies in the patient.\noutput: neutral"
+    ]
+  },
+  "8": {
+    "premise": "A 60-year-old male underwent knee replacement surgery on June 5, 2023. At his postoperative follow-up on May 30, 2023, he reported no complications and good mobility.",
+    "statement": "The patient followed up after his knee replacement surgery.",
+    "label": "contradiction",
+    "responses": [
+      "output: contradiction",
+      "The premise states the knee replacement surgery was on June 5, 2023, and the postoperative follow-up was on May 30, 2023. This means the follow-up occurred before the surgery. The statement claims the patient followed up *after* his surgery. This is a direct contradiction of the dates provided in the premise.\n\noutput: contradiction",
+      "output: contradiction",
+      "The premise states the knee replacement surgery was on June 5, 2023, and the postoperative follow-up was on May 30, 2023. A follow-up on May 30 cannot be after a surgery on June 5 of the same year. Therefore, the premise contradicts the statement that the patient followed up *after* his surgery.\n\noutput: contradiction",
+      "output: contradiction",
+      "The premise states the knee replacement surgery was on June 5, 2023, and the follow-up was on May 30, 2023. A follow-up on May 30 cannot happen after a surgery on June 5. This directly contradicts the statement.\n\noutput: contradiction",
+      "The premise states the knee replacement surgery was on June 5, 2023, and the follow-up was on May 30, 2023. This means the follow-up occurred *before* the surgery. The statement claims the follow-up happened *after* the surgery. This is a direct contradiction.\n\noutput: contradiction",
+      "output: contradiction",
+      "output: contradiction",
+      "output: contradiction"
+    ]
+  },
+  "9": {
+    "premise": "A 50-year-old man presents with worsening fatigue, hypotension, and hyperpigmentation of the skin. Laboratory results reveal low cortisol and elevated ACTH levels. The physician diagnoses the patient with depression and prescribes SSRIs.",
+    "statement": "The patient has Addison's disease.",
+    "label": "entailment",
+    "responses": [
+      "The clinical presentation described in the premise, including fatigue, hypotension, hyperpigmentation, low cortisol, and elevated ACTH, is the classic and definitive picture of primary adrenal insufficiency, also known as Addison's disease. Although the physician in the premise makes a different diagnosis, the objective medical evidence provided strongly and directly supports the conclusion that the patient has Addison's disease. The physician's diagnosis is a misdiagnosis based on the provided facts. Therefore, the premise entails the statement.\noutput: entailment",
+      "The clinical signs (fatigue, hypotension, hyperpigmentation) and laboratory results (low cortisol, elevated ACTH) are the classic presentation of primary adrenal insufficiency, also known as Addison's disease. However, the premise explicitly states that the physician made a different diagnosis (depression). Therefore, the premise provides strong evidence for the statement but also contains information that contradicts it (the official diagnosis given). Because the premise does not definitively confirm or deny that the patient has Addison's disease (it only presents the evidence and a conflicting diagnosis), the relationship is neutral.\n\noutput: neutral",
+      "The symptoms (fatigue, hypotension, hyperpigmentation) and laboratory results (low cortisol, elevated ACTH) described in the premise are the classic clinical presentation of primary adrenal insufficiency, also known as Addison's disease. Although the physician in the premise makes a different diagnosis (depression), the objective medical evidence provided strongly and directly supports the conclusion that the patient has Addison's disease. Therefore, the premise entails the statement.\n\noutput: entailment",
+      "The clinical signs (fatigue, hypotension, hyperpigmentation) and laboratory findings (low cortisol, elevated ACTH) described in the premise are the classic presentation of primary adrenal insufficiency, also known as Addison's disease. Although the physician in the premise makes a different diagnosis, the objective medical evidence provided strongly supports the conclusion that the patient has Addison's disease. Therefore, the premise entails the statement.\noutput: entailment",
+      "The clinical presentation described in the premise, including worsening fatigue, hypotension, hyperpigmentation, low cortisol, and elevated ACTH, is the classic and definitive picture of primary adrenal insufficiency, also known as Addison's disease. Although the physician in the premise makes a different diagnosis (depression), the objective medical evidence provided strongly supports the diagnosis of Addison's disease. The premise describes a patient who has Addison's disease, even if they are misdiagnosed by the physician in the narrative. Therefore, the premise entails the statement.\n\noutput: entailment",
+      "The premise provides clinical and laboratory evidence (fatigue, hypotension, hyperpigmentation, low cortisol, high ACTH) that are classic signs of Addison's disease. However, the premise explicitly states that \"The physician diagnoses the patient with depression\". The physician's diagnosis contradicts the diagnosis in the statement. Because a physician's diagnosis can be incorrect, we cannot be certain from the premise whether the patient actually has Addison's disease or not. The physician's diagnosis makes the statement unproven, but the strong clinical evidence means the statement is not contradicted. Therefore, we cannot confirm or deny the statement based on the premise alone.\n\noutput: neutral",
+      "The clinical presentation described in the premise—fatigue, hypotension, hyperpigmentation, low cortisol, and elevated ACTH—is the classic and defining set of symptoms and lab results for Addison's disease (primary adrenal insufficiency). The statement that the patient has Addison's disease is a direct and necessary conclusion from this objective medical evidence. The physician's diagnosis of depression is a misdiagnosis based on the provided facts and does not alter the underlying condition described by the data.\n\noutput: entailment",
+      "output: entailment",
+      "The symptoms (fatigue, hypotension, hyperpigmentation) and laboratory results (low cortisol, elevated ACTH) described in the premise are the classic clinical presentation of primary adrenal insufficiency, also known as Addison's disease. While the physician in the premise makes an incorrect diagnosis of depression, the objective medical facts provided in the premise logically lead to the conclusion that the patient has Addison's disease. Therefore, the premise entails the statement.\noutput: entailment",
+      "The clinical signs (fatigue, hypotension, hyperpigmentation) and the laboratory results (low cortisol and elevated ACTH) are the classic and definitive findings for a diagnosis of Addison's disease (primary adrenal insufficiency). The information provided in the premise directly and necessarily leads to the conclusion in the statement, even though the physician in the narrative makes an incorrect diagnosis.\n\noutput: entailment"
+    ]
+  },
+  "10": {
+    "premise": "A 22-year-old woman arrives at the emergency department after fainting during exercise. ECG reveals a prolonged QT interval. Her symptoms are attributed to dehydration, and she is discharged with fluids and electrolyte tablets.",
+    "statement": "The patient has long QT syndrome.",
+    "label": "entailment",
+    "responses": [
+      "The premise states that the patient has a prolonged QT interval, which is a key feature of long QT syndrome. However, the premise also states that the doctors attributed the symptoms to dehydration, which is another possible cause for a prolonged QT interval. Since the doctors provided an alternative diagnosis and discharged the patient, they did not definitively diagnose her with long QT syndrome. The statement is a possible diagnosis but is not confirmed or denied by the premise.\n\noutput: neutral",
+      "output: neutral",
+      "The premise states that the patient has a prolonged QT interval, a key feature of long QT syndrome. However, the premise also states that the symptoms were attributed to dehydration, which can also cause a temporary prolongation of the QT interval. Since the cause of the prolonged QT interval is not definitively stated to be the syndrome itself and an alternative cause is given, we cannot be certain the patient has long QT syndrome. The statement is possible but not guaranteed.\n\noutput: neutral",
+      "output: neutral",
+      "A prolonged QT interval is a key feature of long QT syndrome, but it can also be caused by other conditions, such as the electrolyte imbalances that can accompany dehydration. The premise states that the doctors attributed the symptoms to dehydration, suggesting they did not diagnose the patient with long QT syndrome. However, this could be a misdiagnosis. The premise does not provide enough information to definitively confirm or deny the presence of long QT syndrome.\n\noutput: neutral",
+      "The premise states that the patient has a prolonged QT interval, but that this symptom was attributed to dehydration. A prolonged QT interval can be caused by Long QT syndrome, but it can also be a temporary condition caused by other factors like dehydration or electrolyte imbalance. Since the doctors in the premise provided an alternative cause, we cannot definitively conclude that the patient has the specific condition of Long QT syndrome. The doctors' attribution might be correct, or it might be incorrect, and the patient could have the underlying syndrome. Therefore, the premise neither confirms nor denies the statement.\n\noutput: neutral",
+      "A prolonged QT interval is a sign of long QT syndrome, which makes the statement plausible. However, the premise also states that the patient's symptoms were attributed to dehydration, which can also cause a prolonged QT interval due to electrolyte imbalances. Since the premise offers a different explanation for the finding, it does not confirm that the patient has the specific genetic condition known as long QT syndrome. The doctors' attribution could be correct (making the statement false) or incorrect (making the statement potentially true). Therefore, the premise neither confirms nor denies the statement.\n\noutput: neutral",
+      "The premise states that the patient has a prolonged QT interval, which is a symptom of long QT syndrome. However, the premise also states that the doctors attributed the symptoms to dehydration. A prolonged QT interval can be caused by other conditions, such as electrolyte imbalances that can occur with dehydration. Since the premise provides an alternative diagnosis and does not explicitly confirm long QT syndrome, the statement is possible but not guaranteed.\n\noutput: neutral",
+      "A prolonged QT interval is a key feature of long QT syndrome. However, a prolonged QT interval can also be acquired and temporary, caused by factors such as electrolyte imbalances (which can result from dehydration). The premise states that the doctors attributed the symptoms to dehydration and treated that condition. This suggests they believe the prolonged QT is a temporary, acquired issue, not the congenital condition of long QT syndrome. However, the doctors' attribution could be incorrect, and the patient might actually have long QT syndrome. Because the premise provides evidence that could support or refute the statement, the relationship is neutral.\n\noutput: neutral",
+      "output: neutral"
+    ]
+  }
+}

@@ -1,0 +1,172 @@
+{
+  "1": {
+    "premise": "Patient (52M), currently on holiday, presents with several months' history of nasal congestion (blocked, crusty), generalized fatigue, and widespread myalgia. Reports feeling generally unwell.",
+    "statement": "The patient requires urgent outpatient evaluation.",
+    "label": "entailment",
+    "responses": [
+      "output: neutral",
+      "The premise describes the patient’s symptoms but does not state whether an urgent outpatient evaluation is required. This cannot be inferred as certain or denied from the provided information. \n\noutput: neutral",
+      "output: neutral",
+      "Based on the premise, there is no information that explicitly states the patient requires urgent outpatient evaluation; it merely describes their symptoms. Therefore, the relationship is not definitively supported or contradicted by the premise. \n\noutput: neutral",
+      "output: neutral",
+      "output: neutral",
+      "output: neutral",
+      "output: neutral",
+      "output: neutral",
+      "output: neutral"
+    ]
+  },
+  "2": {
+    "premise": "A 40-year-old female presents with a mild fever and pain localized to the renal angle. She denies any coughing and her pulse is within normal limits. Based on her symptoms, she suspects she may have pyelonephritis.",
+    "statement": "Pneumonia is ruled out for this patient",
+    "label": "contradiction",
+    "responses": [
+      "output: neutral",
+      "output: neutral",
+      "The premise does not explicitly state that pneumonia has been definitively ruled out; it only describes current symptoms and the patient’s suspicion of pyelonephritis. Therefore, the truth of the statement cannot be determined from the premise. \n\noutput: neutral",
+      "output: neutral",
+      "output: neutral",
+      "output: neutral",
+      "The premise does not explicitly state that pneumonia has been ruled out, nor does it claim that pneumonia is present. Therefore, the statement’s truth cannot be determined from the premise alone.  \n\noutput: neutral",
+      "output: neutral",
+      "output: neutral",
+      "output: neutral"
+    ]
+  },
+  "3": {
+    "premise": "Patient presents with clinical features suggestive of meningitis. Currently hemodynamically stable, afebrile, and alert. No signs of raised intracranial pressure on examination. Lumbar puncture was attempted but unsuccessful. Discussed with Consultant Dr. A. Smith, who reviewed the case and, given the patient’s stability and presumed viral etiology, advised deferring the procedure. Empirical antiviral therapy was initiated. No antibiotics started at this stage. Plan for lumbar puncture to be performed by senior consultant on 06/07/2025.",
+    "statement": "Given the patient’s stable condition, the consultant’s decision to delay the lumbar puncture until the following day is safe.",
+    "label": "contradiction",
+    "responses": [
+      "output: neutral",
+      "The premise states that the consultant decided to defer the lumbar puncture because the patient is currently stable and has a presumed viral etiology, but it never explicitly says that this decision is safe. Therefore, the truth of the statement about safety cannot be determined solely from the information provided. \n\noutput: neutral",
+      "output: neutral",
+      "The premise reports that the consultant deferred the lumbar puncture because the patient is currently stable and presumed to have a viral illness, but it does not explicitly claim that this decision is “safe.” The statement adds the judgment that the delay is safe, which is not directly stated or contradicted in the premise.\n\noutput: neutral",
+      "The premise mentions the consultant deferred the lumbar puncture because the patient is stable, but it does not explicitly state that this decision is safe. Safety is an evaluative judgment not provided in the premise. Therefore, the statement is not entailed, nor contradicted by the premise.  \n\noutput: neutral",
+      "The premise indicates that the consultant decided to defer the lumbar puncture because the patient is currently stable, but it does not explicitly state that this decision is safe. Therefore, the safety of delaying the procedure cannot be concluded solely from the premise. \n\noutput: neutral",
+      "The premise states that the patient is stable and that the consultant advised deferring the lumbar puncture; it does not explicitly claim that this decision is safe. The safety assessment is an additional inference not directly supported by the premise. \n\noutput: neutral",
+      "output: neutral",
+      "output: neutral",
+      "The premise confirms that the consultant chose to delay the lumbar puncture due to the patient’s stability, but it does not explicitly state that this decision is safe (nor does it say it is unsafe). Thus, the claim of safety in the statement is not directly supported or contradicted by the premise.  \noutput: neutral"
+    ]
+  },
+  "4": {
+    "premise": "A 45-year-old man with a known shellfish allergy experienced an episode of anaphylaxis after dining at a restaurant. Shortly after eating, he developed breathing difficulty and collapsed. He was administered intramuscular epinephrine at the scene but lost consciousness. Witnesses reported tonic-clonic movements and urinary incontinence during the episode. He was taken to the emergency department, where he received intravenous adrenaline and supportive care.",
+    "statement": "The patient should be referred to the First Seizure (FIT) clinic.",
+    "label": "entailment",
+    "responses": [
+      "The premise describes an anaphylactic episode with observed tonic-clonic movements, but it does not state any clinical decision about referral to a First Seizure clinic. The statement is therefore not supported or contradicted by the information given. \n\noutput: neutral",
+      "output: neutral",
+      "The premise does not state whether the patient should or should not be referred to a First Seizure clinic; it merely describes events during an anaphylactic episode. The statement therefore is not supported or contradicted by the premise. \n\noutput: neutral",
+      "The premise gives details of the patient’s episode and treatment but says nothing about whether he should or will be referred to a First Seizure (FIT) clinic. Therefore the statement is neither confirmed nor contradicted by the premise.  \noutput: neutral",
+      "Based on the information in the premise, it is not specified whether the patient should or should not be referred to a First Seizure (FIT) clinic, so the premise neither entails nor contradicts the statement.  \noutput: neutral",
+      "The premise does not state that a referral to a First Seizure (FIT) clinic was made or is required. The presence of tonic-clonic movements could suggest a seizure, but the text does not confirm a seizure diagnosis or recommend referral. Thus the statement is not entailed, nor contradicted.\n\noutput: neutral",
+      "The premise describes an anaphylactic episode with witnessed tonic-clonic movements but does not mention any plan to refer the patient to a First Seizure (FIT) clinic, nor does it indicate that such a referral will not occur. Therefore, the information about referral is not addressed. \n\noutput: neutral",
+      "The premise describes the patient’s presentation and emergency management but gives no information about any referral decision or plan for a First Seizure (FIT) clinic. The statement is therefore neither supported nor contradicted by the premise.  \n\noutput: neutral",
+      "The premise describes an episode of anaphylaxis with secondary loss of consciousness and reported tonic-clonic movements, but it does not state or logically imply that a referral to a First Seizure (FIT) clinic is planned or recommended. Therefore, the truth of the statement cannot be inferred from the premise alone.\n\noutput: neutral",
+      "output: neutral"
+    ]
+  },
+  "5": {
+    "premise": "Adverse Events: A 72-year-old patient receiving chemotherapy developed febrile neutropenia on Day 10 of Cycle 1. Temperature was 38.6°C, absolute neutrophil count (ANC) 0.2 x10⁹/L. Managed as outpatient with oral antibiotics. No hospital admission or IV antibiotics were arranged. Patient monitored via phone follow-up.",
+    "statement": "The adverse event was managed appropriately.",
+    "label": "contradiction",
+    "responses": [
+      "The premise describes the clinical event and what was done, but does not state whether that management was appropriate or inappropriate. Therefore the statement’s truth cannot be determined from the given information.\n\noutput: neutral",
+      "The premise describes what was done (outpatient oral antibiotics and phone follow-up) but does not state whether this management was appropriate or inappropriate. Therefore, the statement that it “was managed appropriately” is not confirmed nor contradicted by the information given.\n\noutput: neutral",
+      "output: neutral",
+      "output: neutral",
+      "output: neutral",
+      "output: neutral",
+      "output: neutral",
+      "output: neutral",
+      "output: neutral",
+      "output: neutral"
+    ]
+  },
+  "6": {
+    "premise": "Adverse Events 1:   Total: 35/51 (68.63%)   Constipation 20/51 (39.22%)   Blood disorder 1/51 (1.96%)   Hypomagnesemia 1/51 (1.96%)   Platelets count decrease 1/51 (1.96%)   Thrombosis 6/51 (11.7%)   Vision-blurred vision 1/51 (1.96%)   Radiation oesophagitis 1/51 (1.96%)   Nausea 2/51 (3.92%)   Vomiting 2/51 (3.92%)   General symptom 2/51 (3.92%)   Headache 1/51 (1.96%)   Bone pain 1/51 (1.96%)",
+    "statement": "The highest patient risk was associated with the occurrence of constipation.",
+    "label": "contradiction",
+    "responses": [
+      "output: entailment",
+      "output: entailment",
+      "output: entailment",
+      "output: entailment",
+      "output: entailment",
+      "The premise shows that constipation occurred in 20 out of 51 patients (39.22%), which is the highest frequency among the listed adverse events. Therefore, constipation represents the highest patient risk in this dataset, matching the statement. \n\noutput: entailment",
+      "The premise lists constipation as occurring in 20 of 51 patients (39.22%), which is the largest proportion among all listed adverse events. Therefore, constipation represents the highest patient risk in the data.\n\noutput: entailment",
+      "output: entailment",
+      "The data show that constipation affected the greatest proportion of patients (20/51), more than any other listed adverse event, indicating it carried the highest risk among them. \n\noutput: entailment",
+      "output: entailment"
+    ]
+  },
+  "7": {
+    "premise": "Adverse Events 2:   Total: 40/60 (66.67%)   Fatigue 25/60 (41.67%)   Anaphylaxis 3/60 (5.00%)   Injection site reaction 4/60 (6.67%)   Rash 2/60 (3.33%)   Headache 3/60 (5.00%)   Dizziness 2/60 (3.33%)   Mild hypotension 1/60 (1.67%)",
+    "statement": "The highest patient risk was associated with the occurrence of fatigue.",
+    "label": "contradiction",
+    "responses": [
+      "output: entailment",
+      "The premise shows that fatigue occurred in 25 out of 60 patients (41.67%), which is higher than any other listed adverse event. Therefore, fatigue is associated with the highest patient risk among the events reported.\n\noutput: entailment",
+      "output: entailment",
+      "output: entailment",
+      "The premise shows fatigue occurred in 25 out of 60 patients (41.67%), which is the highest percentage among all listed adverse events, indicating the highest risk. Thus the statement is supported by the data.\n\noutput: entailment",
+      "The premise lists the frequencies of various adverse events, and fatigue has the highest percentage (41.67%), higher than any other listed event. Therefore, the statement that the highest patient risk was associated with fatigue is supported by the data.  \noutput: entailment",
+      "The premise lists the frequencies of each adverse event. Fatigue occurs in 25 out of 60 patients (41.67%), which is higher than any other specific adverse event listed (the next highest is injection site reaction at 6.67%). Therefore, fatigue represents the highest patient risk among the events reported.\n\noutput: entailment",
+      "output: entailment",
+      "output: entailment",
+      "output: entailment"
+    ]
+  },
+  "8": {
+    "premise": "Adverse Events 3:   Total: 28/55 (50.91%)   Dry mouth 18/55 (32.73%)   Bradycardia 2/55 (3.64%)   Syncope 1/55 (1.82%)   Transient dizziness 3/55 (5.45%)   Injection site reaction 2/55 (3.64%)   Anxiety 1/55 (1.82%)   Fatigue 1/55 (1.82%)",
+    "statement": "The highest patient risk was associated with the occurrence of dry mouth.",
+    "label": "contradiction",
+    "responses": [
+      "Based on the premise, dry mouth occurred in 18 out of 55 patients (32.73%), which is the highest incidence among the listed adverse events. Therefore, the statement that the highest patient risk was associated with dry mouth is supported by the premise.\n\noutput: entailment",
+      "output: entailment",
+      "The premise shows that dry mouth occurred in 18 out of 55 patients (32.73%), which is the highest incidence among the listed adverse events; therefore the statement is supported by the data.\n\noutput: entailment",
+      "output: entailment",
+      "output: entailment",
+      "The premise lists the frequency of each adverse event. Dry mouth occurred in 18 of 55 patients (32.73%), which is the highest proportion among all listed events. Therefore, the statement that the highest patient risk was associated with dry mouth is supported by the premise.\n\noutput: entailment",
+      "output: entailment",
+      "output: entailment",
+      "The premise shows dry mouth occurred in 32.73% of patients, the highest percentage among the adverse events listed, supporting the statement that the highest patient risk was associated with dry mouth.\n\noutput: entailment",
+      "output: entailment"
+    ]
+  },
+  "9": {
+    "premise": "Adverse Events 7:   Total: 50/70 (71.43%)   Injection site pain 20/70 (28.57%)   Myocardial infarction 3/70 (4.29%)   Hypertensive crisis 5/70 (7.14%)   Seizure 2/70 (2.86%)   Dizziness 3/70 (4.29%)   Nausea 2/70 (2.86%)",
+    "statement": "The highest patient risk was associated with the occurrence of injection site pain.",
+    "label": "contradiction",
+    "responses": [
+      "Based on the premise, injection site pain has the highest incidence (20/70, 28.57%) among the individual adverse events listed, so the statement that the highest patient risk was associated with injection site pain is supported.  \noutput: entailment",
+      "The premise shows that injection site pain occurred in 20 of 70 patients (28.57%), which is a higher proportion than any other listed adverse event. Therefore, it represents the highest patient risk among the events described.\n\noutput: entailment",
+      "The premise lists the incidence of various adverse events, showing that injection site pain occurred in 20 out of 70 patients (28.57%), which is the highest percentage among the listed events. Therefore, the statement that the highest patient risk was associated with injection site pain is supported by the data.  \noutput: entailment",
+      "output: entailment",
+      "The premise lists the percentage of patients experiencing each specific adverse event. Injection site pain occurred in 28.57 % of patients, a higher proportion than any of the other listed events (7.14 % or lower). Therefore, the statement that the highest patient risk was associated with injection site pain is supported by the data. \n\noutput: entailment",
+      "output: entailment",
+      "The premise lists injection site pain occurring in 28.57% of patients, which is higher than any other listed adverse event. Therefore, the statement that “The highest patient risk was associated with the occurrence of injection site pain” is supported by the data. \n\noutput: entailment",
+      "output: entailment",
+      "output: entailment",
+      "output: entailment"
+    ]
+  },
+  "10": {
+    "premise": "Adverse Events 8:   Total: 55/80 (68.75%)   Fatigue 25/80 (31.25%)   Anaphylaxis 3/80 (3.75%)   Respiratory distress 5/80 (6.25%)   Hypotension 4/80 (5.00%)   Diarrhea 4/80 (5.00%)   Rash 3/80 (3.75%)",
+    "statement": "The highest patient risk was associated with the occurrence of fatigue.",
+    "label": "contradiction",
+    "responses": [
+      "The premise indicates that fatigue occurred in 25 out of 80 patients (31.25%), which is the highest percentage among the listed adverse events. Therefore, the statement that \"The highest patient risk was associated with the occurrence of fatigue\" is supported by the data. \n\noutput: entailment",
+      "The premise lists the incidence of various adverse events, where fatigue occurred in 25 of 80 patients (31.25%), which is the highest percentage among the listed events (higher than anaphylaxis, respiratory distress, hypotension, diarrhea, and rash). Therefore, the statement that the highest patient risk was associated with fatigue is supported by the data. \n\noutput: entailment",
+      "output: entailment",
+      "The data show that fatigue occurred in 25 of 80 patients (31.25%), which is the highest frequency among the listed adverse events (others range from 3/80 to 5/80). Therefore, the premise supports the claim that the greatest patient risk was for fatigue.\n\noutput: entailment",
+      "The premise lists the frequencies of adverse events, showing fatigue occurring in 25 of 80 patients (31.25%), which is the highest percentage among the specific events reported. Therefore, the statement that the highest patient risk was associated with fatigue is supported by the premise.\n\noutput: entailment",
+      "The premise shows that fatigue occurred in 25 out of 80 patients, which is a higher count than any other listed adverse event. Therefore, fatigue is associated with the highest observed patient risk among the events provided.\n\noutput: entailment",
+      "The premise lists the frequency of different adverse events in patients and shows that fatigue occurred in 31.25% of patients, which is higher than any other specific adverse event listed (the next highest is respiratory distress at 6.25%). Therefore, the statement that the highest patient risk was associated with fatigue is supported by the data.\n\noutput: entailment",
+      "output: entailment",
+      "The premise lists the frequencies of different adverse events among 80 patients. Fatigue occurs in 25 out of 80 patients (31.25%), which is a higher percentage than any of the other listed events (all ≤ 6.25%). Therefore, fatigue represents the largest patient risk among the events provided.\n\noutput: entailment",
+      "The premise lists the frequencies of several adverse events, showing that fatigue occurred in 25 out of 80 patients (31.25%), which is higher than any other listed adverse event. Therefore, fatigue is indeed associated with the highest patient risk among the adverse events reported.\n\noutput: entailment"
+    ]
+  }
+}
