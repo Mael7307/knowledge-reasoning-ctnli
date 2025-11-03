@@ -1,0 +1,10 @@
+You are given a premise and a statement.
+Your task is to determine whether the statement is factually correct based on the clinical information in the premise and established medical knowledge.
+Explain your reasoning step by step.
+You must end your response with output: True or output: False
+You must end your response with output: True or output: False
+You must end your response with output: True or output: False
+statement: {statement}
+premise: {premise}
+Answer:
+

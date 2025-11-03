@@ -1,0 +1,8 @@
+You are given a premise and a statement. Your task is to determine the relationship between the statement and the premise. You must end your response with output: entailment, output: neutral or output: contradiction.
+
+statement: {statement}
+premise: {premise}
+You must end your answer with output: entailment, output: neutral or output: contradiction.
+You must end your answer with output: entailment, output: neutral or output: contradiction.
+Answer:
+
