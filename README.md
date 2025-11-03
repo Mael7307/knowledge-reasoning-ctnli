@@ -1,4 +1,4 @@
-# 🧠 CogGap: Cognitive Gap Evaluation Framework
+# 🧠 The knowledge-reasoning dissociation: Fundamental limitations of llms in clinical natural language inference
 
 This repository provides a unified framework for evaluating Large Language Models (LLMs) on cognitive gap tasks, including natural language inference (NLI) and factual correctness evaluation.
 
@@ -17,7 +17,6 @@ We implement a modular pipeline for running experiments across multiple LLM prov
 - [Configuration](#configuration)
 - [Data Format](#data-format)
 - [Reproducibility](#reproducibility)
-- [Development](#development)
 - [Citation](#citation)
 
 ---
@@ -245,7 +244,6 @@ python scripts/evaluate.py \
 │           └── *.json
 ├── README.md
 ├── requirements.txt
-└── .gitignore
 ```
 
 ---
@@ -350,81 +348,18 @@ To reproduce experiments:
        --output-format table
    ```
 
-### Migrating from Old Structure
-
-If you have data in the old `cl_results_and_prompts/` structure, use the migration script:
-
-```bash
-python scripts/migrate_data.py
-```
-
-See `MIGRATION_GUIDE.md` for detailed migration instructions.
-
----
-
-## 🔧 Development
-
-### Adding a New Model Provider
-
-1. Create a new client class in `src/models/` inheriting from `BaseModel`:
-
-```python
-from .base import BaseModel
-
-class NewModelClient(BaseModel):
-    def generate(self, prompt: str, **kwargs) -> str:
-        # Implement generation logic
-        pass
-```
-
-2. Register it in `src/experiments/runner.py`:
-
-```python
-def create_model_client(config: ExperimentConfig) -> BaseModel:
-    # ... existing code ...
-    elif config.model_type == "new_provider":
-        return NewModelClient(...)
-```
-
-3. Update `scripts/run_experiment.py` to support the new provider.
-
-### Adding a New Evaluation Metric
-
-1. Add the metric function to `src/evaluation/metrics.py`:
-
-```python
-def calculate_new_metric(y_true, y_pred):
-    # Implementation
-    return score
-```
-
-2. Update `src/evaluation/evaluator.py` to use the new metric.
-
-3. Add the metric option to `scripts/evaluate.py`.
-
 ---
 
 ## 📄 Citation
 
-If you use this framework in your research, please cite:
-
+If you use this framework in your research, please cite our paper:
+> **The knowledge-reasoning dissociation: Fundamental limitations of llms in clinical natural language inference**
 ```bibtex
-@misc{coggap2025,
-  title={CogGap: Cognitive Gap Evaluation Framework},
-  author={[Your Name]},
-  year={2025},
-  howpublished={\url{https://github.com/[your-username]/CogGap}}
+@article{jullien2025knowledge,
+  title={The knowledge-reasoning dissociation: Fundamental limitations of llms in clinical natural language inference},
+  author={Jullien, Ma{\"e}l and Valentino, Marco and Freitas, Andr{\'e}},
+  journal={arXiv preprint arXiv:2508.10777},
+  year={2025}
 }
 ```
 
----
-
-## 📝 License
-
-[Specify your license here]
-
----
-
-## 🙏 Acknowledgments
-
-[Add any acknowledgments here]
