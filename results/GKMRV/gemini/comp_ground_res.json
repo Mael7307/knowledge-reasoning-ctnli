@@ -1,0 +1,172 @@
+{
+  "1": {
+    "premise": "78-year-old patient with stage IV HER2-positive breast cancer receiving daily paclitaxel at 315 mg/m² for 12 weeks, along with standard trastuzumab therapy (initial loading dose of 4 mg/kg followed by 2 mg/kg weekly for 12 weeks, then 6 mg/kg every 3 weeks for 40 weeks).",
+    "statement": "This dosage of paclitaxel is dangerous for a 78-year-old patient because daily administration at 315 mg/m² may exceed tolerability and increase risk of neurotoxicity or myelosuppression.",
+    "label": true,
+    "responses": [
+      "output: True",
+      "True",
+      "True",
+      "True",
+      "True",
+      "True",
+      "True",
+      "True",
+      "True",
+      "True"
+    ]
+  },
+  "2": {
+    "premise": "65-year-old male with non-Hodgkin lymphoma receiving cyclophosphamide at 415mg/m² intravenously on Days 1–5 of each 21-day cycle, for 4 cycles.",
+    "statement": "This dosage of cyclophosphamide is potentially toxic because prolonged 5-day regimens at this dose may result in significant hematologic toxicity in older patients.",
+    "label": true,
+    "responses": [
+      "True",
+      "True",
+      "True",
+      "True",
+      "True",
+      "True",
+      "True",
+      "True",
+      "True",
+      "True"
+    ]
+  },
+  "3": {
+    "premise": "68-year-old female with type 2 diabetes and chronic kidney disease (eGFR 25 mL/min/1.73m²) receiving metformin 1000mg twice daily.",
+    "statement": "This dosage of metformin is contraindicated because severe renal impairment (eGFR <30) greatly increases the risk of lactic acidosis.",
+    "label": true,
+    "responses": [
+      "True",
+      "True",
+      "True",
+      "True",
+      "True",
+      "True",
+      "True",
+      "True",
+      "True",
+      "True"
+    ]
+  },
+  "4": {
+    "premise": "45‑year‑old patient with squamous cell carcinoma receiving weekly cetuximab at 250mg/m² and cisplatin at 250mg/m² daily for 7 days.",
+    "statement": "This dosage of cisplatin is dangerous because 250mg/m² daily for 7 days far exceeds safe cumulative limits and poses a risk of nephrotoxicity and ototoxicity.",
+    "label": true,
+    "responses": [
+      "True",
+      "True",
+      "True",
+      "True",
+      "True",
+      "True",
+      "True",
+      "True",
+      "True",
+      "output: True"
+    ]
+  },
+  "5": {
+    "premise": "72-year-old patient with advanced non-small cell lung cancer receiving cisplatin at 120mg/m² on Day 1 and vinorelbine 30mg/m² on Days 1 and 8 of a 21-day cycle, repeated for 6 cycles.",
+    "statement": "This regimen is risky in elderly patients because cisplatin at 120mg/m² may cause nephrotoxicity, and combined with vinorelbine, increases hematologic toxicity.",
+    "label": true,
+    "responses": [
+      "True",
+      "True",
+      "True",
+      "True",
+      "True",
+      "True",
+      "True",
+      "True",
+      "True",
+      "True"
+    ]
+  },
+  "6": {
+    "premise": "53-year-old female with triple-negative breast cancer receiving doxorubicin 90mg/m² every week for 8 weeks.",
+    "statement": "This dosage of doxorubicin is dangerous because cumulative exposure over 8 weeks at 90mg/m²/week exceeds the cardiotoxicity threshold.",
+    "label": true,
+    "responses": [
+      "True",
+      "True",
+      "True",
+      "True",
+      "True",
+      "True",
+      "True",
+      "True",
+      "True",
+      "True"
+    ]
+  },
+  "7": {
+    "premise": "2-month-old infant diagnosed with metastatic melanoma receiving pembrolizumab 200mg intravenously every 3 weeks.",
+    "statement": "This dosage of pembrolizumab is contraindicated because checkpoint inhibitors are not approved or studied in infants, and dosing at 200mg may be harmful.",
+    "label": true,
+    "responses": [
+      "True",
+      "True",
+      "*   **Analyze the premise:** A 2-month-old infant is receiving a 200mg dose of pembrolizumab.\n*   **Analyze the statement's claims:**\n    1.  **Checkpoint inhibitors are not approved or studied in infants:** The safety and effectiveness of pembrolizumab (Keytruda) have not been established in pediatric patients younger than 6 months. A 2-month-old falls into this category. Therefore, this part of the statement is correct.\n    2.  **Dosing at 200mg may be harmful:** The standard pediatric dose for pembrolizumab is weight-based, typically 2 mg/kg. A 2-month-old infant weighs approximately 4-6 kg. The correct dose would be around 8-12 mg. The 200mg dose is the standard adult flat dose and represents a massive overdose (approximately 16-25 times the correct dose) for an infant. Such an overdose of a potent immunotherapy agent would be extremely dangerous and potentially fatal due to the high risk of severe immune-related adverse events. Therefore, this part of the statement is also correct.\n*   **Conclusion:** The statement accurately identifies that the drug is not established for use in this age group and that the specified dose is a significant and harmful overdose.\n\noutput: True",
+      "True",
+      "True",
+      "True",
+      "True",
+      "The standard pediatric dose for pembrolizumab is weight-based, typically 2 mg/kg every 3 weeks, with a maximum dose of 200 mg. A 2-month-old infant weighs approximately 4-6 kg. The correct dose would therefore be in the range of 8-12 mg. A 200 mg dose is a massive overdose for an infant and would be extremely dangerous. Furthermore, the safety and efficacy of checkpoint inhibitors like pembrolizumab have not been established in infants, and their use in this age group is not approved; it would be considered experimental and off-label. Therefore, the statement is correct on both points: the drug is not established for use in infants, and the specified dose is dangerously high.\n\noutput: True",
+      "True",
+      "True"
+    ]
+  },
+  "8": {
+    "premise": "59-year-old male with relapsed acute lymphoblastic leukemia receiving methotrexate 250mg/m² intravenously daily for 10 consecutive days.",
+    "statement": "This methotrexate regimen is dangerous due to cumulative toxicity risk, including severe mucositis, renal toxicity, and marrow suppression.",
+    "label": true,
+    "responses": [
+      "True",
+      "True",
+      "True",
+      "True",
+      "True",
+      "True",
+      "True",
+      "True",
+      "True",
+      "True"
+    ]
+  },
+  "9": {
+    "premise": "64-year-old patient with advanced pancreatic cancer receiving gemcitabine 1250mg/m² intravenously on Days 1–5 every 21 days for four cycles.",
+    "statement": "This gemcitabine schedule is excessive because daily dosing for 5 consecutive days at 1250mg/m² increases risk of hematologic toxicity and liver injury.",
+    "label": true,
+    "responses": [
+      "True",
+      "True",
+      "True",
+      "The standard, FDA-approved dosing for gemcitabine as a single agent in pancreatic cancer is 1000 mg/m² intravenously over 30 minutes, once weekly for up to 7 weeks, followed by one week of rest (Cycle 1). Subsequent cycles consist of once-weekly infusions for 3 consecutive weeks out of every 4 weeks.\n\nThe schedule described in the premise (1250 mg/m² daily for 5 consecutive days) is highly unconventional and much more intensive than the standard weekly regimen. Gemcitabine's primary dose-limiting toxicity is myelosuppression (hematologic toxicity). Administering a high dose for five consecutive days would not allow for bone marrow recovery and would be expected to cause profound neutropenia and thrombocytopenia. Hepatotoxicity (liver injury), manifested as elevated liver transaminases, is also a well-documented side effect of gemcitabine that would be significantly worsened by such an intense, high-dose schedule. Therefore, the statement that this schedule is excessive and increases the risk of hematologic and liver toxicity is correct.\n\noutput: True",
+      "True",
+      "True",
+      "The standard, approved dosing schedule for gemcitabine as a single agent in advanced pancreatic cancer is 1000 mg/m² given weekly for up to 7 weeks, followed by a week of rest, then weekly for 3 out of every 4 weeks. The dose of 1250 mg/m² is sometimes used, typically in combination regimens and on a weekly schedule (e.g., Days 1, 8, and 15 of a 28-day cycle).\n\nAdministering a high dose of 1250 mg/m² daily for five consecutive days is not a standard or recommended regimen. The primary dose-limiting toxicity of gemcitabine is myelosuppression (hematologic toxicity). A daily dosing schedule does not allow for bone marrow recovery between doses, which would lead to profound and potentially life-threatening neutropenia, thrombocytopenia, and anemia. Liver enzyme elevation (liver injury) is also a known side effect that would be exacerbated by such an intensive, high-dose schedule. Early clinical trials exploring daily gemcitabine schedules found the maximum tolerated dose to be much lower than 1250 mg/m² due to severe hematologic toxicity. Therefore, the schedule described in the premise is excessive and would carry a very high risk of severe toxicity.\n\noutput: True",
+      "True",
+      "True",
+      "True"
+    ]
+  },
+  "10": {
+    "premise": "60-year-old male with head and neck squamous cell carcinoma receiving cisplatin 250mg/m² daily for 7 consecutive days along with standard radiation therapy.",
+    "statement": "This cisplatin dose is highly toxic; daily 250mg/m² for 7 days far exceeds accepted limits and may result in kidney failure and ototoxicity.",
+    "label": true,
+    "responses": [
+      "True",
+      "True",
+      "True",
+      "output: True",
+      "True",
+      "True",
+      "True",
+      "output: True",
+      "True",
+      "True"
+    ]
+  }
+}

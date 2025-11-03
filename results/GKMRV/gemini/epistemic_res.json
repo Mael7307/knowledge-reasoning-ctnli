@@ -1,0 +1,172 @@
+{
+  "1": {
+    "premise": "67-year-old male presented with mild lower urinary tract symptoms, including frequency and a weak urinary stream. Digital rectal examination was unremarkable. Blood tests revealed a PSA level of 9.2 ng/mL. The case was reviewed by Consultant Urologist Dr. M. Rahman, who made a diagnosis of prostate cancer based on the PSA result. The patient was informed of the diagnosis and referred to oncology for further management. No imaging or biopsy was arranged at this stage.",
+    "statement": "The diagnosis of prostate cancer is incorrect because PSA elevation alone is not diagnostic without imaging or biopsy confirmation.",
+    "label": true,
+    "responses": [
+      "True",
+      "True",
+      "output: True",
+      "output: True",
+      "True",
+      "True",
+      "True",
+      "True",
+      "output: True",
+      "output: True"
+    ]
+  },
+  "2": {
+    "premise": "A 34-year-old male presents to the emergency department with sudden onset chest pain radiating to his left arm, shortness of breath, and diaphoresis. ECG shows ST-elevation in leads II, III, and aVF. Troponin is markedly elevated. The attending physician rules out myocardial infarction and concludes that the patient is experiencing heartburn due to spicy food eaten earlier. The patient is discharged with antacids and advised to avoid chili.",
+    "statement": "The diagnosis of heartburn is incorrect because ST-elevation and elevated troponin are diagnostic of myocardial infarction.",
+    "label": true,
+    "responses": [
+      "output: True",
+      "output: True",
+      "output: True",
+      "True",
+      "True",
+      "The combination of chest pain radiating to the left arm, shortness of breath, diaphoresis, ST-elevation in leads II, III, and aVF on an ECG, and markedly elevated troponin levels are the classic and definitive signs and diagnostic criteria for an acute inferior ST-elevation myocardial infarction (STEMI), commonly known as a heart attack. A diagnosis of heartburn is a gross misdiagnosis that ignores all the objective clinical evidence pointing to a life-threatening cardiac event. Therefore, the statement correctly identifies that the diagnosis of heartburn is incorrect and provides the correct medical reasoning.\noutput: True",
+      "True",
+      "output: True",
+      "output: True",
+      "output: True"
+    ]
+  },
+  "3": {
+    "premise": "A 66-year-old man with no significant past medical history presents with severe, tearing chest pain radiating to the back. Blood pressure is markedly different between arms. The emergency physician diagnoses musculoskeletal pain and prescribes NSAIDs.",
+    "statement": "The diagnosis of musculoskeletal pain is incorrect because the symptoms and blood pressure difference are classic for aortic dissection.",
+    "label": true,
+    "responses": [
+      "True",
+      "output: True",
+      "True",
+      "The combination of severe, tearing chest pain radiating to the back and a significant blood pressure difference between the arms are hallmark signs and symptoms of an acute aortic dissection, which is a life-threatening medical emergency. A diagnosis of musculoskeletal pain is inconsistent with this clinical picture and would represent a dangerous misdiagnosis.\noutput: True",
+      "True",
+      "True",
+      "The combination of severe, tearing chest pain radiating to the back and a significant blood pressure difference between the arms are hallmark signs of aortic dissection, a life-threatening medical emergency. A diagnosis of musculoskeletal pain would be a critical misdiagnosis in this clinical context, as it fails to account for these specific and alarming findings.\noutput: True",
+      "True",
+      "True",
+      "output: True"
+    ]
+  },
+  "4": {
+    "premise": "A 25-year-old female comes in with fever, flank pain, and dysuria. Urine culture is positive for E. coli. Despite this, the physician suggests that the pain is likely due to a pulled muscle and no antibiotics are prescribed.",
+    "statement": "The suggestion of a pulled muscle is incorrect because the positive urine culture with typical symptoms confirms a urinary tract infection.",
+    "label": true,
+    "responses": [
+      "True",
+      "The combination of fever, flank pain, and dysuria is a classic triad for pyelonephritis, which is a type of upper urinary tract infection (UTI). The positive urine culture for E. coli, the most common uropathogen, confirms this diagnosis. A pulled muscle would not explain the fever, dysuria, or the positive urine culture. Therefore, the physician's suggestion is incorrect, and the reason provided in the statement is medically sound.\noutput: True",
+      "The classic triad of fever, flank pain, and dysuria in a female patient is highly suggestive of pyelonephritis, a type of urinary tract infection (UTI) that affects the kidneys. The positive urine culture for E. coli, the most common uropathogen, confirms the diagnosis of a UTI. A pulled muscle would not explain the fever or dysuria. Therefore, the evidence strongly supports a UTI, making the suggestion of a pulled muscle as the primary cause incorrect.\noutput: True",
+      "True",
+      "output: True",
+      "True",
+      "output: True",
+      "True",
+      "The combination of fever, flank pain, and dysuria is a classic triad of symptoms for pyelonephritis, which is an infection of the kidney (an upper urinary tract infection). A positive urine culture for E. coli, the most common uropathogen, confirms the diagnosis of a urinary tract infection. A pulled muscle would not cause fever, dysuria, or a positive urine culture. Therefore, the physician's suggestion is incorrect, and the statement accurately explains why.\noutput: True",
+      "True"
+    ]
+  },
+  "5": {
+    "premise": "A 59-year-old woman presents with a persistent cough, weight loss, and night sweats. Chest X-ray shows a large mass in the right upper lobe. The clinician diagnoses her with pneumonia and prescribes antibiotics without further workup.",
+    "statement": "The diagnosis of pneumonia is incorrect because a lung mass and systemic symptoms suggest lung cancer, not infection.",
+    "label": true,
+    "responses": [
+      "output: True",
+      "True",
+      "True",
+      "output: True",
+      "True",
+      "True",
+      "The combination of a large lung mass, weight loss, and night sweats in a 59-year-old is highly suggestive of lung cancer. While a post-obstructive pneumonia (an infection behind a tumor-blocked airway) can occur, the primary diagnosis to rule out is malignancy. Diagnosing this as simple pneumonia and forgoing further investigation (like a CT scan and biopsy) is not standard medical practice and misses the more likely underlying cause. Therefore, the statement that the pneumonia diagnosis is incorrect because the findings strongly suggest lung cancer is medically sound.\noutput: True",
+      "True",
+      "True",
+      "output: True"
+    ]
+  },
+  "6": {
+    "premise": "A 38-year-old woman presents with episodes of palpitations, anxiety, and sweating. Her blood pressure is 180/110 mm Hg. No labs or imaging are done. The physician diagnoses panic disorder and refers her to a therapist.",
+    "statement": "The diagnosis of panic disorder is incorrect because severe hypertension and physical symptoms suggest a medical cause like pheochromocytoma.",
+    "label": true,
+    "responses": [
+      "output: True",
+      "The combination of episodic palpitations, anxiety, sweating, and severe hypertension (180/110 mm Hg) is a classic presentation for pheochromocytoma, a catecholamine-secreting tumor. While these symptoms can also occur in panic disorder, the presence of severe hypertension makes it imperative to rule out medical causes. Panic disorder is often a diagnosis of exclusion, meaning other medical conditions that can mimic its symptoms must be investigated and ruled out first. Making a diagnosis of panic disorder without any labs or imaging in this context is clinically inappropriate and potentially dangerous. The statement correctly points out that the severe hypertension and physical symptoms are highly suggestive of a medical cause like pheochromocytoma, making the immediate diagnosis of panic disorder incorrect without a proper medical workup.\n\noutput: True",
+      "True",
+      "output: True",
+      "True",
+      "The constellation of episodic palpitations, sweating, and anxiety, coupled with severe hypertension (180/110 mm Hg), is a classic presentation for pheochromocytoma, a catecholamine-secreting tumor. Standard medical practice dictates that medical causes must be ruled out before a psychiatric diagnosis like panic disorder is made, especially when there are significant physical findings like severe hypertension. Making a diagnosis of panic disorder without any medical workup (labs or imaging) in this context is inappropriate and potentially incorrect. The statement correctly identifies that the severe hypertension and physical symptoms point towards a potential medical cause that needs to be investigated before diagnosing panic disorder.\noutput: True",
+      "The triad of episodic palpitations, sweating, and anxiety, combined with severe hypertension (180/110 mm Hg), is a classic presentation for pheochromocytoma, a catecholamine-secreting tumor. Standard medical practice requires ruling out medical causes of symptoms before making a psychiatric diagnosis like panic disorder. Given the significant physical finding of severe hypertension, a workup for secondary causes, such as pheochromocytoma, is mandatory. Diagnosing panic disorder without any labs or imaging to rule out such a critical medical condition is inappropriate and premature. Therefore, the statement that the diagnosis is incorrect because the symptoms suggest a medical cause is clinically sound.\noutput: True",
+      "output: True",
+      "output: True",
+      "output: True"
+    ]
+  },
+  "7": {
+    "premise": "The patient reported that her persistent cough and weight loss were due to seasonal allergies. However, further workup revealed a mass in the left lung and a biopsy confirmed adenocarcinoma.",
+    "statement": "The belief that the symptoms were due to seasonal allergies is incorrect because a confirmed lung mass and biopsy prove cancer.",
+    "label": true,
+    "responses": [
+      "True",
+      "True",
+      "output: True",
+      "output: True",
+      "True",
+      "True",
+      "output: True",
+      "output: True",
+      "True",
+      "True"
+    ]
+  },
+  "8": {
+    "premise": "A 60-year-old male underwent knee replacement surgery on June 5, 2023. At his postoperative follow-up on May 30, 2023, he reported no complications and good mobility.",
+    "statement": "The report of a postoperative follow-up is incorrect because it occurred before the date of surgery.",
+    "label": true,
+    "responses": [
+      "True",
+      "output: True",
+      "output: True",
+      "True",
+      "A postoperative follow-up, by definition, occurs after a surgical operation. The premise states the surgery was on June 5, 2023, while the postoperative follow-up was on May 30, 2023. It is chronologically impossible for a follow-up to an event to happen before the event itself. Therefore, the report contains a factual error.\noutput: True",
+      "output: True",
+      "The postoperative follow-up is dated May 30, 2023, while the surgery occurred on June 5, 2023. A postoperative follow-up, by definition, must occur after the surgery. Since the date of the follow-up is before the date of the surgery, the report contains a chronological error. Therefore, the statement is correct.\noutput: True",
+      "output: True",
+      "output: True",
+      "True"
+    ]
+  },
+  "9": {
+    "premise": "A 50-year-old man presents with worsening fatigue, hypotension, and hyperpigmentation of the skin. Laboratory results reveal low cortisol and elevated ACTH levels. The physician diagnoses the patient with depression and prescribes SSRIs.",
+    "statement": "The diagnosis of depression is incorrect because the symptoms and lab results are consistent with Addison's disease.",
+    "label": true,
+    "responses": [
+      "True",
+      "True",
+      "True",
+      "True",
+      "True",
+      "True",
+      "The combination of worsening fatigue, hypotension (low blood pressure), hyperpigmentation of the skin, low cortisol, and elevated ACTH levels is the classic presentation of primary adrenal insufficiency, also known as Addison's disease. The elevated ACTH causes the hyperpigmentation, and the low cortisol causes fatigue and hypotension. While fatigue can be a symptom of depression, the other signs, symptoms, and specific lab results strongly point to Addison's disease. Therefore, diagnosing this patient with depression is a misdiagnosis.\n\noutput: True",
+      "output: True",
+      "True",
+      "True"
+    ]
+  },
+  "10": {
+    "premise": "A 22-year-old woman arrives at the emergency department after fainting during exercise. ECG reveals a prolonged QT interval. Her symptoms are attributed to dehydration, and she is discharged with fluids and electrolyte tablets.",
+    "statement": "The attribution to dehydration is incorrect because exertional syncope and prolonged QT suggest long QT syndrome, which requires cardiac evaluation.",
+    "label": true,
+    "responses": [
+      "True",
+      "True",
+      "output: True",
+      "output: True",
+      "Exertional syncope (fainting during exercise) is a major red flag for a serious underlying cardiac condition. The finding of a prolonged QT interval on the ECG in a patient with exertional syncope is highly suggestive of Long QT Syndrome (LQTS). LQTS is a disorder of the heart's electrical system that can cause fast, chaotic heartbeats (arrhythmias), leading to syncope, seizures, or sudden death. While dehydration can cause fainting and electrolyte imbalances that may prolong the QT interval, attributing the symptoms solely to dehydration and discharging a patient with these combined findings without a thorough cardiac evaluation (including cardiology consultation and likely admission for monitoring) would be a significant deviation from the standard of care and potentially life-threatening. Therefore, the statement that the attribution to dehydration is incorrect and that the patient requires cardiac evaluation is factually correct.\noutput: True",
+      "output: True",
+      "True",
+      "output: True",
+      "True",
+      "True"
+    ]
+  }
+}
