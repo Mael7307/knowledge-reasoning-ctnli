@@ -1,0 +1,105 @@
+{
+  "1": {
+    "statement": "The patient requires urgent outpatient evaluation.",
+    "premise": "Patient (52M), currently on holiday, presents with several months' history of nasal congestion (blocked, crusty), generalized fatigue, and widespread myalgia. Reports feeling generally unwell.",
+    "label": "entailment"
+  },
+  "2": {
+    "statement": "Pneumonia is ruled out for this patient",
+    "premise": "A 40-year-old female presents with a mild fever and pain localized to the renal angle. She denies any coughing and her pulse is within normal limits. Based on her symptoms, she suspects she may have pyelonephritis.",
+    "label": "contradiction"
+  },
+  "3": {
+    "statement": "Given the patient’s stable condition, the consultant’s decision to delay the lumbar puncture until the following day is safe.",
+    "premise": "Patient presents with clinical features suggestive of meningitis. Currently hemodynamically stable, afebrile, and alert. No signs of raised intracranial pressure on examination. Lumbar puncture was attempted but unsuccessful. Discussed with Consultant Dr. A. Smith, who reviewed the case and, given the patient’s stability and presumed viral etiology, advised deferring the procedure. Empirical antiviral therapy was initiated. No antibiotics started at this stage. Plan for lumbar puncture to be performed by senior consultant on 06/07/2025.",
+    "label": "contradiction"
+  },
+  "4": {
+  "premise": "A 45-year-old man with a known shellfish allergy experienced an episode of anaphylaxis after dining at a restaurant. Shortly after eating, he developed breathing difficulty and collapsed. He was administered intramuscular epinephrine at the scene but lost consciousness. Witnesses reported tonic-clonic movements and urinary incontinence during the episode. He was taken to the emergency department, where he received intravenous adrenaline and supportive care.",
+  "statement": "The patient should be referred to the First Seizure (FIT) clinic.",
+  "label": "entailment"
+  },
+  "5": {
+  "premise": "Adverse Events: A 72-year-old patient receiving chemotherapy developed febrile neutropenia on Day 10 of Cycle 1. Temperature was 38.6°C, absolute neutrophil count (ANC) 0.2 x10⁹/L. Managed as outpatient with oral antibiotics. No hospital admission or IV antibiotics were arranged. Patient monitored via phone follow-up.",
+  "statement": "The adverse event was managed appropriately.",
+  "label": "contradiction"
+  },
+  "6": {
+  "premise": [
+    "Adverse Events 1:",
+    "  Total: 35/51 (68.63%)",
+    "  Constipation 20/51 (39.22%)",
+    "  Blood disorder 1/51 (1.96%)",
+    "  Hypomagnesemia 1/51 (1.96%)",
+    "  Platelets count decrease 1/51 (1.96%)",
+    "  Thrombosis 6/51 (11.7%)",
+    "  Vision-blurred vision 1/51 (1.96%)",
+    "  Radiation oesophagitis 1/51 (1.96%)",
+    "  Nausea 2/51 (3.92%)",
+    "  Vomiting 2/51 (3.92%)",
+    "  General symptom 2/51 (3.92%)",
+    "  Headache 1/51 (1.96%)",
+    "  Bone pain 1/51 (1.96%)"
+  ],
+  "statement": "The highest patient risk was associated with the occurrence of constipation.",
+  "label": "contradiction"
+  },
+  "7": {
+  "premise": [
+    "Adverse Events 2:",
+    "  Total: 40/60 (66.67%)",
+    "  Fatigue 25/60 (41.67%)",
+    "  Anaphylaxis 3/60 (5.00%)",
+    "  Injection site reaction 4/60 (6.67%)",
+    "  Rash 2/60 (3.33%)",
+    "  Headache 3/60 (5.00%)",
+    "  Dizziness 2/60 (3.33%)",
+    "  Mild hypotension 1/60 (1.67%)"
+  ],
+  "statement": "The highest patient risk was associated with the occurrence of fatigue.",
+  "label": "contradiction"
+  },
+  "8": {
+  "premise": [
+    "Adverse Events 3:",
+    "  Total: 28/55 (50.91%)",
+    "  Dry mouth 18/55 (32.73%)",
+    "  Bradycardia 2/55 (3.64%)",
+    "  Syncope 1/55 (1.82%)",
+    "  Transient dizziness 3/55 (5.45%)",
+    "  Injection site reaction 2/55 (3.64%)",
+    "  Anxiety 1/55 (1.82%)",
+    "  Fatigue 1/55 (1.82%)"
+  ],
+  "statement": "The highest patient risk was associated with the occurrence of dry mouth.",
+  "label": "contradiction"
+  },
+  "9": {
+  "premise": [
+    "Adverse Events 7:",
+    "  Total: 50/70 (71.43%)",
+    "  Injection site pain 20/70 (28.57%)",
+    "  Myocardial infarction 3/70 (4.29%)",
+    "  Hypertensive crisis 5/70 (7.14%)",
+    "  Seizure 2/70 (2.86%)",
+    "  Dizziness 3/70 (4.29%)",
+    "  Nausea 2/70 (2.86%)"
+  ],
+  "statement": "The highest patient risk was associated with the occurrence of injection site pain.",
+  "label": "contradiction"
+  },
+  "10": {
+  "premise": [
+    "Adverse Events 8:",
+    "  Total: 55/80 (68.75%)",
+    "  Fatigue 25/80 (31.25%)",
+    "  Anaphylaxis 3/80 (3.75%)",
+    "  Respiratory distress 5/80 (6.25%)",
+    "  Hypotension 4/80 (5.00%)",
+    "  Diarrhea 4/80 (5.00%)",
+    "  Rash 3/80 (3.75%)"
+  ],
+  "statement": "The highest patient risk was associated with the occurrence of fatigue.",
+  "label": "contradiction"
+  }
+}

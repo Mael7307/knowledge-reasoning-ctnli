@@ -1,0 +1,53 @@
+{
+  "1": {
+    "premise": "78-year-old patient with stage IV HER2-positive breast cancer receiving daily paclitaxel at 315 mg/m² for 12 weeks, along with standard trastuzumab therapy (initial loading dose of 4 mg/kg followed by 2 mg/kg weekly for 12 weeks, then 6 mg/kg every 3 weeks for 40 weeks).",
+    "statement": "This dosage of paclitaxel is appropriate for a 78-year-old patient and does not raise concern for neurotoxicity or myelosuppression.",
+    "label": false
+  },
+  "2": {
+    "premise": "65-year-old male with non-Hodgkin lymphoma receiving cyclophosphamide at 415mg/m² intravenously on Days 1–5 of each 21-day cycle, for 4 cycles.",
+    "statement": "This cyclophosphamide regimen is considered tolerable and does not present excessive hematologic risk for older patients.",
+    "label": false
+  },
+  "3": {
+    "premise": "68-year-old female with type 2 diabetes and chronic kidney disease (eGFR 25 mL/min/1.73m²) receiving metformin 1000mg twice daily.",
+    "statement": "This dosage of metformin is acceptable even in patients with severe renal impairment and does not increase the risk of lactic acidosis.",
+    "label": false
+  },
+  "4": {
+    "premise": "45‑year‑old patient with squamous cell carcinoma receiving weekly cetuximab at 250mg/m² and cisplatin at 250mg/m² daily for 7 days.",
+    "statement": "This dosage of cisplatin is acceptable and does not exceed safe cumulative limits for toxicity.",
+    "label": false
+  },
+  "5": {
+    "premise": "72-year-old patient with advanced non-small cell lung cancer receiving cisplatin at 120mg/m² on Day 1 and vinorelbine 30mg/m² on Days 1 and 8 of a 21-day cycle, repeated for 6 cycles.",
+    "statement": "This regimen is safe for elderly patients and does not raise particular concern for nephrotoxicity or hematologic toxicity.",
+    "label": false
+  },
+  "6": {
+    "premise": "53-year-old female with triple-negative breast cancer receiving doxorubicin 90mg/m² every week for 8 weeks.",
+    "statement": "This doxorubicin regimen is within acceptable cumulative dose limits and is not considered cardiotoxic.",
+    "label": false
+  },
+  "7": {
+    "premise": "2-month-old infant diagnosed with metastatic melanoma receiving pembrolizumab 200mg intravenously every 3 weeks.",
+    "statement": "This dosage of pembrolizumab is appropriate for infants and does not pose safety concerns despite limited study.",
+    "label": false
+  },
+  "8": {
+    "premise": "59-year-old male with relapsed acute lymphoblastic leukemia receiving methotrexate 250mg/m² intravenously daily for 10 consecutive days.",
+    "statement": "This methotrexate regimen is well tolerated and does not significantly increase the risk of cumulative toxicity.",
+    "label": false
+  },
+  "9": {
+    "premise": "64-year-old patient with advanced pancreatic cancer receiving gemcitabine 1250mg/m² intravenously on Days 1–5 every 21 days for four cycles.",
+    "statement": "This gemcitabine schedule is appropriate and does not pose excess risk of hematologic or liver toxicity.",
+    "label": false
+  },
+  "10": {
+    "premise": "60-year-old male with head and neck squamous cell carcinoma receiving cisplatin 250mg/m² daily for 7 consecutive days along with standard radiation therapy.",
+    "statement": "This cisplatin dose is within safe limits and is not likely to cause kidney failure or ototoxicity.",
+    "label": false
+  }
+}
+

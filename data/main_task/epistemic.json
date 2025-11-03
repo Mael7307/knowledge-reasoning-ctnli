@@ -1,0 +1,52 @@
+{
+  "1": {
+  "premise": "67-year-old male presented with mild lower urinary tract symptoms, including frequency and a weak urinary stream. Digital rectal examination was unremarkable. Blood tests revealed a PSA level of 9.2 ng/mL. The case was reviewed by Consultant Urologist Dr. M. Rahman, who made a diagnosis of prostate cancer based on the PSA result. The patient was informed of the diagnosis and referred to oncology for further management. No imaging or biopsy was arranged at this stage.",
+  "statement": "The patient has prostate cancer",
+  "label": "contradiction"
+  },
+  "2": {
+  "premise": "A 34-year-old male presents to the emergency department with sudden onset chest pain radiating to his left arm, shortness of breath, and diaphoresis. ECG shows ST-elevation in leads II, III, and aVF. Troponin is markedly elevated. The attending physician rules out myocardial infarction and concludes that the patient is experiencing heartburn due to spicy food eaten earlier. The patient is discharged with antacids and advised to avoid chili.",
+  "statement": "The patient is experiencing heartburn.",
+  "label": "contradiction"
+  },
+  "3": {
+    "premise": "A 66-year-old man with no significant past medical history presents with severe, tearing chest pain radiating to the back. Blood pressure is markedly different between arms. The emergency physician diagnoses musculoskeletal pain and prescribes NSAIDs.",
+    "statement": "The patient has an aortic dissection.",
+    "label": "entailment"
+  },
+  "4": {
+    "premise": "A 25-year-old female comes in with fever, flank pain, and dysuria. Urine culture is positive for E. coli. Despite this, the physician suggests that the pain is likely due to a pulled muscle and no antibiotics are prescribed.",
+    "statement": "The patient has a urinary tract infection.",
+    "label": "entailment"
+  },
+  "5": {
+    "premise": "A 59-year-old woman presents with a persistent cough, weight loss, and night sweats. Chest X-ray shows a large mass in the right upper lobe. The clinician diagnoses her with pneumonia and prescribes antibiotics without further workup.",
+    "statement": "The patient has lung cancer.",
+    "label": "entailment"
+  },
+  "6": {
+    "premise": "A 38-year-old woman presents with episodes of palpitations, anxiety, and sweating. Her blood pressure is 180/110 mm Hg. No labs or imaging are done. The physician diagnoses panic disorder and refers her to a therapist.",
+    "statement": "The patient has panic disorder.",
+    "label": "contradiction"
+  },
+  "7": {
+    "premise": "The patient reported that her persistent cough and weight loss were due to seasonal allergies. However, further workup revealed a mass in the left lung and a biopsy confirmed adenocarcinoma.",
+    "statement": "The patient has seasonal allergies.",
+    "label": "contradiction"
+  },
+  "8": {
+    "premise": "A 60-year-old male underwent knee replacement surgery on June 5, 2023. At his postoperative follow-up on May 30, 2023, he reported no complications and good mobility.",
+    "statement": "The patient followed up after his knee replacement surgery.",
+    "label": "contradiction"
+  },
+  "9": {
+    "premise": "A 50-year-old man presents with worsening fatigue, hypotension, and hyperpigmentation of the skin. Laboratory results reveal low cortisol and elevated ACTH levels. The physician diagnoses the patient with depression and prescribes SSRIs.",
+    "statement": "The patient has Addison's disease.",
+    "label": "entailment"
+  },
+  "10": {
+    "premise": "A 22-year-old woman arrives at the emergency department after fainting during exercise. ECG reveals a prolonged QT interval. Her symptoms are attributed to dehydration, and she is discharged with fluids and electrolyte tablets.",
+    "statement": "The patient has long QT syndrome.",
+    "label": "entailment"
+  }
+}

@@ -1,0 +1,25 @@
+# Example configuration file
+# Copy this to config.yaml and fill in your API keys
+
+gemini:
+  api_key: "your-gemini-api-key-here"
+
+lunar-gpt-4o:
+  api_key: "your-azure-openai-api-key"
+  version: "2024-02-15-preview"
+  endpoint: "https://your-endpoint.openai.azure.com/"
+
+lunar-gpt-4o-mini:
+  api_key: "your-azure-openai-api-key"
+  version: "2024-02-15-preview"
+  endpoint: "https://your-endpoint.openai.azure.com/"
+
+lunar-deepseek-r1:
+  api_key: "your-azure-openai-api-key"
+  version: "2024-02-15-preview"
+  endpoint: "https://your-endpoint.openai.azure.com/"
+
+# For direct OpenAI API (not Azure)
+openai:
+  api_key: "your-openai-api-key-here"
+

@@ -1,0 +1,52 @@
+{
+  "1": {
+    "premise": "78-year-old patient with stage IV HER2-positive breast cancer receiving daily paclitaxel at 315 mg/m² for 12 weeks, along with standard trastuzumab therapy (initial loading dose of 4 mg/kg followed by 2 mg/kg weekly for 12 weeks, then 6 mg/kg every 3 weeks for 40 weeks).",
+    "statement": "The patient is expected to experience clinical benefit from their treatment regimen, leading to disease stabilization and improved overall prognosis.",
+    "label": "contradiction"
+  },
+  "2": {
+    "premise": "65-year-old male with non-Hodgkin lymphoma receiving cyclophosphamide at 415mg/m² intravenously on Days 1–5 of each 21-day cycle, for 4 cycles.",
+    "statement": "The treatment is expected to result in some reduction in lymph node size, with durable response and extended survival.",
+    "label": "contradiction"
+  },
+  "3": {
+    "premise": "68-year-old female with type 2 diabetes and chronic kidney disease (eGFR 25 mL/min/1.73m²) receiving metformin 1000mg twice daily.",
+    "statement": "The treatment is expected to improve glycemic control, reduce cardiovascular risk, and provide long-term kidney protection.",
+    "label": "contradiction"
+  },
+  "4": {
+    "premise": "45‑year‑old patient with squamous cell carcinoma receiving weekly cetuximab at 250mg/m² and cisplatin at 250mg/m² daily for 7 days.",
+    "statement": "The patient is expected to show partial regression of the tumor, with a favorable clinical response and improved progression-free survival.",
+    "label": "contradiction"
+  },
+  "5": {
+    "premise": "72-year-old patient with advanced non-small cell lung cancer receiving cisplatin at 120mg/m² on Day 1 and vinorelbine 30mg/m² on Days 1 and 8 of a 21-day cycle, repeated for 6 cycles.",
+    "statement": "The patient is expected to experience tumor response with improved respiratory function and overall clinical benefit.",
+    "label": "contradiction"
+  },
+  "6": {
+    "premise": "53-year-old female with triple-negative breast cancer receiving doxorubicin 90mg/m² every week for 8 weeks.",
+    "statement": "The patient is expected to respond well to the regimen, with meaningful tumor shrinkage and sustained clinical benefit.",
+    "label": "contradiction"
+  },
+  "7": {
+    "premise": "2-month-old infant diagnosed with metastatic melanoma receiving pembrolizumab 200mg intravenously every 3 weeks.",
+    "statement": "The therapy is expected to induce an immune response against the tumor and improve the clinical outlook.",
+    "label": "contradiction"
+  },
+  "8": {
+    "premise": "59-year-old male with relapsed acute lymphoblastic leukemia receiving methotrexate 250mg/m² intravenously daily for 10 consecutive days.",
+    "statement": "The treatment is expected to reduce leukemic burden and improve survival prospects.",
+    "label": "contradiction"
+  },
+  "9": {
+    "premise": "64-year-old patient with advanced pancreatic cancer receiving gemcitabine 1250mg/m² intravenously on Days 1–5 every 21 days for four cycles.",
+    "statement": "The treatment is expected to relieve symptoms and prolong overall survival.",
+    "label": "contradiction"
+  },
+  "10": {
+    "premise": "60-year-old male with head and neck squamous cell carcinoma receiving cisplatin 250mg/m² daily for 7 consecutive days along with standard radiation therapy.",
+    "statement": "The regimen is expected to enhance tumor control and improve survival outcomes.",
+    "label": "contradiction"
+  }
+}
