@@ -1,0 +1,172 @@
+{
+  "1": {
+    "premise": "Patient (52M), currently on holiday, presents with several months' history of nasal congestion (blocked, crusty), generalized fatigue, and widespread myalgia. Reports feeling generally unwell.",
+    "statement": "Granulomatosis with polyangiitis (GPA) is completely ruled out based on the current symptoms and does not require any further evaluation.",
+    "label": false,
+    "responses": [
+      "output: False",
+      "ERROR: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting",
+      "False",
+      "The patient's symptoms of chronic nasal congestion (blocked, crusty) combined with constitutional symptoms like generalized fatigue, widespread myalgia, and feeling unwell are highly suggestive of Granulomatosis with polyangiitis (GPA). The upper respiratory tract, particularly the sinuses and nasal passages, is a classic site of involvement in GPA. These symptoms, especially in a middle-aged male, warrant a high index of suspicion for GPA. Far from being ruled out, GPA should be a primary differential diagnosis that requires urgent further investigation, including blood tests (specifically ANCA), urinalysis, and potentially imaging and biopsy.\n\noutput: False",
+      "output: False",
+      "output: False",
+      "output: False",
+      "The patient's presentation with a several-month history of chronic nasal congestion (especially described as \"crusty\"), fatigue, and myalgia in a middle-aged male is highly suspicious for Granulomatosis with Polyangiitis (GPA). These are classic early symptoms of the disease, particularly the upper respiratory tract involvement (chronic sinusitis/rhinitis) and constitutional symptoms (fatigue, malaise, myalgia). Far from being ruled out, GPA should be a primary consideration in the differential diagnosis, and this patient requires urgent further evaluation, including blood tests (specifically ANCA), urinalysis, and possibly imaging and a biopsy.\n\noutput: False",
+      "output: False",
+      "output: False"
+    ]
+  },
+  "2": {
+    "premise": "A 40-year-old female presents with a mild fever and pain localized to the renal angle. She denies any coughing and her pulse is within normal limits. Based on her symptoms, she suspects she may have pyelonephritis.",
+    "statement": "Pneumonia is completely ruled out, and there is no potential for serious harm if left untreated.",
+    "label": false,
+    "responses": [
+      "False",
+      "False",
+      "False",
+      "False",
+      "Based on the premise, the patient's symptoms of fever and renal angle pain are classic signs of pyelonephritis, which is a serious kidney infection.\n\n1.  **\"Pneumonia is completely ruled out\"**: While the absence of a cough makes pneumonia less likely, it cannot be *completely* ruled out without a physical examination (e.g., listening to the lungs) and potentially a chest X-ray. Lower lobe pneumonia can sometimes present with flank or upper abdominal pain. Therefore, this part of the statement is an overconfident assertion.\n\n2.  **\"...there is no potential for serious harm if left untreated.\"**: This is factually incorrect. The most likely diagnosis based on the premise is pyelonephritis. If left untreated, pyelonephritis can lead to severe complications, including urosepsis (a life-threatening infection of the bloodstream), renal abscess, and permanent kidney damage.\n\nSince the second part of the statement is definitively false based on established medical knowledge about the likely condition (pyelonephritis), the entire statement is incorrect.\n\noutput: False",
+      "output: False",
+      "output: False",
+      "False",
+      "output: False",
+      "False"
+    ]
+  },
+  "3": {
+    "premise": "Patient presents with clinical features suggestive of meningitis. Currently hemodynamically stable, afebrile, and alert. No signs of raised intracranial pressure on examination. Lumbar puncture was attempted but unsuccessful. Discussed with Consultant Dr. A. Smith, who reviewed the case and, given the patient’s stability and presumed viral etiology, advised deferring the procedure. Empirical antiviral therapy was initiated. No antibiotics started at this stage. Plan for lumbar puncture to be performed by senior consultant on 06/07/2025.",
+    "statement": "Bacterial meningitis has been definitively ruled out, and deferring lumbar puncture and antibiotics carries no risk to the patient.",
+    "label": false,
+    "responses": [
+      "output: False",
+      "False",
+      "output: False",
+      "False",
+      "False",
+      "False",
+      "ERROR: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting",
+      "output: False",
+      "False",
+      "The premise states that the etiology is \"presumed viral,\" which is a clinical judgment, not a definitive diagnosis. A lumbar puncture, which is the key investigation to differentiate between viral and bacterial meningitis, was unsuccessful. Therefore, bacterial meningitis has not been definitively ruled out. Deferring antibiotics in a patient with suspected meningitis where a bacterial cause has not been excluded carries a significant risk of severe morbidity or mortality if the cause is indeed bacterial.\n\noutput: False"
+    ]
+  },
+  "4": {
+    "premise": "A 45-year-old man with a known shellfish allergy experienced an episode of anaphylaxis after dining at a restaurant. Shortly after eating, he developed breathing difficulty and collapsed. He was administered intramuscular epinephrine at the scene but lost consciousness. Witnesses reported tonic-clonic movements and urinary incontinence during the episode. He was taken to the emergency department, where he received intravenous adrenaline and supportive care.",
+    "statement": "The episode does not require neurological follow-up, as the seizure-like activity was entirely consistent with uncomplicated anaphylaxis.",
+    "label": false,
+    "responses": [
+      "False",
+      "output: False",
+      "False",
+      "output: False",
+      "Anoxic seizures, which include tonic-clonic movements and incontinence, can occur due to cerebral hypoperfusion during severe anaphylactic shock. While the seizure-like activity may be a direct consequence of the anaphylaxis, a first-time episode of tonic-clonic movements with loss of consciousness typically warrants a neurological evaluation to rule out an underlying seizure disorder or other neurological pathology. The anaphylactic event could have lowered the seizure threshold in a patient with a pre-existing but undiagnosed condition. Therefore, stating that the episode definitively does not require neurological follow-up is an oversimplification and is not consistent with standard medical practice for a first-time convulsive event.\n\noutput: False",
+      "False",
+      "False",
+      "False",
+      "False",
+      "False"
+    ]
+  },
+  "5": {
+    "premise": "Adverse Events: A 72-year-old patient receiving chemotherapy developed febrile neutropenia on Day 10 of Cycle 1. Temperature was 38.6°C, absolute neutrophil count (ANC) 0.2 x10⁹/L. Managed as outpatient with oral antibiotics. No hospital admission or IV antibiotics were arranged. Patient monitored via phone follow-up.",
+    "statement": "Outpatient oral antibiotic management was the correct approach, and hospital admission with IV antibiotics was not necessary in this case.",
+    "label": false,
+    "responses": [
+      "False",
+      "False",
+      "ERROR: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting",
+      "False",
+      "False",
+      "False",
+      "False",
+      "False",
+      "False",
+      "False"
+    ]
+  },
+  "6": {
+    "premise": "Adverse Events 1:   Total: 35/51 (68.63%)   Constipation 20/51 (39.22%)   Blood disorder 1/51 (1.96%)   Hypomagnesemia 1/51 (1.96%)   Platelets count decrease 1/51 (1.96%)   Thrombosis 6/51 (11.7%)   Vision-blurred vision 1/51 (1.96%)   Radiation oesophagitis 1/51 (1.96%)   Nausea 2/51 (3.92%)   Vomiting 2/51 (3.92%)   General symptom 2/51 (3.92%)   Headache 1/51 (1.96%)   Bone pain 1/51 (1.96%)",
+    "statement": "Constipation poses the highest risk to patients in this trial because it is more clinically important than thrombosis.",
+    "label": false,
+    "responses": [
+      "False",
+      "False",
+      "False",
+      "False",
+      "output: False",
+      "output: False",
+      "False",
+      "ERROR: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting",
+      "Based on established medical knowledge, thrombosis (the formation of a blood clot) is a serious and potentially life-threatening condition that can lead to events like pulmonary embolism or stroke. Constipation, while a common and uncomfortable adverse event, is generally considered far less clinically severe or important than thrombosis. Although constipation was the most frequently reported adverse event in the premise (39.22% vs 11.7% for thrombosis), this does not make it more clinically important or a higher risk in terms of severity. The statement's claim that constipation is more clinically important than thrombosis is factually incorrect.\n\noutput: False",
+      "False"
+    ]
+  },
+  "7": {
+    "premise": "Adverse Events 2:   Total: 40/60 (66.67%)   Fatigue 25/60 (41.67%)   Anaphylaxis 3/60 (5.00%)   Injection site reaction 4/60 (6.67%)   Rash 2/60 (3.33%)   Headache 3/60 (5.00%)   Dizziness 2/60 (3.33%)   Mild hypotension 1/60 (1.67%)",
+    "statement": "Fatigue poses a higher risk to patients in this trial compared to anaphylaxis, despite the known severity of anaphylactic reactions.",
+    "label": false,
+    "responses": [
+      "output: False",
+      "False",
+      "True",
+      "False",
+      "output: True",
+      "False",
+      "False",
+      "False",
+      "False",
+      "output: False"
+    ]
+  },
+  "8": {
+    "premise": "Adverse Events 3:   Total: 28/55 (50.91%)   Dry mouth 18/55 (32.73%)   Bradycardia 2/55 (3.64%)   Syncope 1/55 (1.82%)   Transient dizziness 3/55 (5.45%)   Injection site reaction 2/55 (3.64%)   Anxiety 1/55 (1.82%)   Fatigue 1/55 (1.82%)",
+    "statement": "Dry mouth poses a greater clinical risk to patients in this study than bradycardia because it affects more participants.",
+    "label": false,
+    "responses": [
+      "output: False",
+      "False",
+      "False",
+      "False",
+      "False",
+      "False",
+      "False",
+      "output: False",
+      "False",
+      "output: False"
+    ]
+  },
+  "9": {
+    "premise": "Adverse Events 7:   Total: 50/70 (71.43%)   Injection site pain 20/70 (28.57%)   Myocardial infarction 3/70 (4.29%)   Hypertensive crisis 5/70 (7.14%)   Seizure 2/70 (2.86%)   Dizziness 3/70 (4.29%)   Nausea 2/70 (2.86%)",
+    "statement": "Injection site pain is the most serious safety concern in this dataset because it is more clinically important than myocardial infarction.",
+    "label": false,
+    "responses": [
+      "False",
+      "False",
+      "output: False",
+      "False",
+      "False",
+      "False",
+      "False",
+      "output: False",
+      "False",
+      "False"
+    ]
+  },
+  "10": {
+    "premise": "Adverse Events 8:   Total: 55/80 (68.75%)   Fatigue 25/80 (31.25%)   Anaphylaxis 3/80 (3.75%)   Respiratory distress 5/80 (6.25%)   Hypotension 4/80 (5.00%)   Diarrhea 4/80 (5.00%)   Rash 3/80 (3.75%)",
+    "statement": "Fatigue is the most critical safety concern in this dataset and outweighs the clinical importance of anaphylaxis and respiratory distress.",
+    "label": false,
+    "responses": [
+      "output: False",
+      "output: False",
+      "output: False",
+      "False",
+      "output: False",
+      "False",
+      "output: False",
+      "False",
+      "output: False",
+      "Based on established medical knowledge, anaphylaxis and respiratory distress are severe, life-threatening medical emergencies that require immediate intervention. Fatigue, while the most frequently reported adverse event in the premise (31.25%), is significantly less severe and does not carry the same level of acute risk to life. Therefore, the statement that fatigue is the \"most critical safety concern\" and \"outweighs the clinical importance\" of anaphylaxis and respiratory distress is factually incorrect. Clinical importance and criticality are determined by the severity and potential for harm, not just frequency.\n\noutput: False"
+    ]
+  }
+}

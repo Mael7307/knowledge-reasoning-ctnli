@@ -1,0 +1,172 @@
+{
+  "1": {
+    "premise": "67-year-old male presented with mild lower urinary tract symptoms, including frequency and a weak urinary stream. Digital rectal examination was unremarkable. Blood tests revealed a PSA level of 9.2 ng/mL. The case was reviewed by Consultant Urologist Dr. M. Rahman, who made a diagnosis of prostate cancer based on the PSA result. The patient was informed of the diagnosis and referred to oncology for further management. No imaging or biopsy was arranged at this stage.",
+    "statement": "The diagnosis of prostate cancer is correct despite the absence of imaging or biopsy confirmation.",
+    "label": false,
+    "responses": [
+      "Based on established medical knowledge, a definitive diagnosis of prostate cancer requires histopathological confirmation from a prostate biopsy. An elevated Prostate-Specific Antigen (PSA) level, such as 9.2 ng/mL, is a strong indicator and warrants further investigation, but it is not diagnostic on its own. Other conditions, such as benign prostatic hyperplasia (BPH) or prostatitis, can also cause an elevated PSA. Standard medical practice would involve further evaluation, typically with imaging (like a multi-parametric MRI) followed by a prostate biopsy, before confirming a diagnosis of prostate cancer. Therefore, making a definitive diagnosis based solely on a PSA result is not correct according to clinical guidelines.\n\noutput: False",
+      "An elevated PSA level is a significant indicator that may suggest the presence of prostate cancer, but it is not a definitive diagnostic tool on its own. Other conditions, such as benign prostatic hyperplasia (BPH) and prostatitis, can also cause an elevated PSA. The gold standard and required method for a definitive diagnosis of prostate cancer is a prostate biopsy with histopathological examination of the tissue. Making a formal diagnosis of cancer and referring a patient to oncology without tissue confirmation is a departure from established medical guidelines and standards of care. Therefore, the diagnosis cannot be considered factually correct or confirmed.\n\noutput: False",
+      "output: False",
+      "output: False",
+      "ERROR: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting",
+      "output: False",
+      "False",
+      "False",
+      "Based on established medical knowledge, a definitive diagnosis of prostate cancer requires histological confirmation from a tissue sample, which is obtained via a prostate biopsy. An elevated Prostate-Specific Antigen (PSA) level, such as 9.2 ng/mL, is an indicator that raises suspicion for prostate cancer, but it is not diagnostic on its own. Other conditions, such as benign prostatic hyperplasia (BPH) or prostatitis, can also cause an elevated PSA. Standard clinical practice dictates that an elevated PSA, especially in a symptomatic patient, should lead to further investigations, typically including imaging (like an mpMRI) and/or a prostate biopsy to confirm or rule out cancer. Making a definitive diagnosis of cancer and referring a patient to oncology without biopsy confirmation is contrary to standard medical practice. Therefore, the statement that the diagnosis is correct is not supported by the facts or standard medical procedure.\n\noutput: False",
+      "False"
+    ]
+  },
+  "2": {
+    "premise": "A 34-year-old male presents to the emergency department with sudden onset chest pain radiating to his left arm, shortness of breath, and diaphoresis. ECG shows ST-elevation in leads II, III, and aVF. Troponin is markedly elevated. The attending physician rules out myocardial infarction and concludes that the patient is experiencing heartburn due to spicy food eaten earlier. The patient is discharged with antacids and advised to avoid chili.",
+    "statement": "The diagnosis of heartburn is correct despite ST-elevation and elevated troponin levels.",
+    "label": false,
+    "responses": [
+      "The combination of chest pain radiating to the left arm, ST-elevation in leads II, III, and aVF on an ECG, and markedly elevated troponin levels are the classic and definitive signs of an acute inferior wall myocardial infarction (heart attack). These findings indicate injury and death of heart muscle tissue due to a blocked coronary artery. Heartburn (gastroesophageal reflux disease) does not cause ST-elevation on an ECG or an elevation in cardiac troponins. Therefore, diagnosing heartburn and ruling out a myocardial infarction in this clinical context is incorrect and constitutes a major medical error.\n\noutput: False",
+      "output: False",
+      "False",
+      "False",
+      "output: False",
+      "False",
+      "False",
+      "False",
+      "output: False",
+      "False"
+    ]
+  },
+  "3": {
+    "premise": "A 66-year-old man with no significant past medical history presents with severe, tearing chest pain radiating to the back. Blood pressure is markedly different between arms. The emergency physician diagnoses musculoskeletal pain and prescribes NSAIDs.",
+    "statement": "The diagnosis of musculoskeletal pain is correct despite symptoms suggesting aortic dissection.",
+    "label": false,
+    "responses": [
+      "False",
+      "output: False",
+      "output: False",
+      "False",
+      "output: False",
+      "output: False",
+      "output: False",
+      "False",
+      "The combination of severe, tearing chest pain radiating to the back and a significant difference in blood pressure between the arms are classic, hallmark signs of an acute aortic dissection. This is a life-threatening medical emergency. Diagnosing these symptoms as musculoskeletal pain would be a major medical error, as it ignores critical red flags pointing to a vascular catastrophe. Therefore, the diagnosis of musculoskeletal pain is incorrect.\n\noutput: False",
+      "False"
+    ]
+  },
+  "4": {
+    "premise": "A 25-year-old female comes in with fever, flank pain, and dysuria. Urine culture is positive for E. coli. Despite this, the physician suggests that the pain is likely due to a pulled muscle and no antibiotics are prescribed.",
+    "statement": "The diagnosis of a pulled muscle is correct despite the positive urine culture and urinary symptoms.",
+    "label": false,
+    "responses": [
+      "The classic triad of fever, flank pain, and dysuria, combined with a positive urine culture for E. coli, is the hallmark presentation of pyelonephritis (a kidney infection). A pulled muscle would not explain the fever, dysuria, or the positive urine culture. The diagnosis of a pulled muscle is incorrect and ignores the clear evidence of a serious urinary tract infection that requires antibiotic treatment.\noutput: False",
+      "output: False",
+      "The classic triad of fever, flank pain, and dysuria, combined with a positive urine culture for E. coli, is the hallmark presentation of pyelonephritis (a kidney infection). A pulled muscle would not explain the fever, dysuria, or the positive urine culture. Ignoring these clear signs of a serious infection in favor of a musculoskeletal diagnosis is incorrect and contrary to the standard of medical care. The patient requires antibiotic treatment.\noutput: False",
+      "The classic triad of fever, flank pain, and dysuria, combined with a positive urine culture for E. coli, is the hallmark presentation of pyelonephritis (a kidney infection). A pulled muscle would not explain the fever, dysuria, or the positive urine culture. Withholding antibiotics in this case is contrary to the standard of care, as untreated pyelonephritis can lead to serious complications. Therefore, the diagnosis of a pulled muscle is incorrect.\n\noutput: False",
+      "output: False",
+      "The combination of fever, flank pain, and dysuria is a classic triad for pyelonephritis (a kidney infection). A positive urine culture for E. coli, a common uropathogen, confirms the diagnosis of a urinary tract infection. A pulled muscle would not cause fever, dysuria, or a positive urine culture. Therefore, diagnosing a pulled muscle and withholding antibiotics in this clinical scenario is incorrect and goes against the standard of care.\n\noutput: False",
+      "False",
+      "The combination of fever, flank pain, dysuria, and a positive urine culture for E. coli are classic signs and symptoms of pyelonephritis, which is an infection of the kidney. A pulled muscle would not cause a fever, dysuria, or a positive urine culture. Therefore, the diagnosis of a pulled muscle is incorrect, and withholding antibiotics is inappropriate and dangerous.\n\noutput: False",
+      "False",
+      "False"
+    ]
+  },
+  "5": {
+    "premise": "A 59-year-old woman presents with a persistent cough, weight loss, and night sweats. Chest X-ray shows a large mass in the right upper lobe. The clinician diagnoses her with pneumonia and prescribes antibiotics without further workup.",
+    "statement": "The diagnosis of pneumonia is correct despite the presence of a lung mass and systemic symptoms.",
+    "label": false,
+    "responses": [
+      "False",
+      "False",
+      "False",
+      "False",
+      "False",
+      "output: False",
+      "output: False",
+      "False",
+      "False",
+      "ERROR: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting"
+    ]
+  },
+  "6": {
+    "premise": "A 38-year-old woman presents with episodes of palpitations, anxiety, and sweating. Her blood pressure is 180/110 mm Hg. No labs or imaging are done. The physician diagnoses panic disorder and refers her to a therapist.",
+    "statement": "The diagnosis of panic disorder is correct despite physical signs suggestive of a medical cause.",
+    "label": false,
+    "responses": [
+      "False\nThe symptoms of palpitations, anxiety, and sweating can be features of a panic attack. However, the presence of severe hypertension (180/110 mm Hg) is a significant red flag for an underlying medical condition. This combination of symptoms is classic for a pheochromocytoma, a catecholamine-secreting tumor that must be ruled out. Other medical conditions like hyperthyroidism or cardiac arrhythmias also need to be considered. According to standard medical practice, a diagnosis of panic disorder is a diagnosis of exclusion, meaning that potential medical causes for the symptoms must be investigated and ruled out first. Making a diagnosis of panic disorder and referring to therapy without any laboratory or imaging workup is inappropriate and potentially dangerous. Therefore, the statement that the diagnosis is correct is false.\noutput: False",
+      "False",
+      "The symptoms of palpitations, anxiety, and sweating can be features of a panic attack. However, the presence of a significantly elevated blood pressure (180/110 mm Hg, which is a hypertensive crisis) is a major red flag for an underlying medical condition. Medical conditions such as pheochromocytoma (a tumor of the adrenal gland), hyperthyroidism, or other cardiovascular diseases can present with this exact constellation of symptoms. Standard medical practice requires ruling out these serious and potentially life-threatening medical causes before making a psychiatric diagnosis like panic disorder. The physician's failure to perform any laboratory tests or imaging constitutes a premature and potentially dangerous diagnosis. Therefore, concluding that the diagnosis of panic disorder is correct is not supported by the information and runs contrary to established medical principles.\n\noutput: False",
+      "False",
+      "False",
+      "False",
+      "output: False",
+      "output: False",
+      "output: False",
+      "output: False"
+    ]
+  },
+  "7": {
+    "premise": "The patient reported that her persistent cough and weight loss were due to seasonal allergies. However, further workup revealed a mass in the left lung and a biopsy confirmed adenocarcinoma.",
+    "statement": "The diagnosis of seasonal allergies is correct despite the presence of a lung mass and biopsy-proven cancer.",
+    "label": false,
+    "responses": [
+      "False",
+      "False",
+      "The patient's symptoms of persistent cough and, particularly, weight loss are classic signs of lung cancer. While a cough can be a symptom of seasonal allergies, unexplained weight loss is not. The biopsy confirming adenocarcinoma provides a definitive diagnosis that explains the patient's symptoms. The patient's self-diagnosis of seasonal allergies was incorrect.\noutput: False",
+      "output: False",
+      "output: False",
+      "False",
+      "output: False",
+      "False",
+      "False",
+      "output: False"
+    ]
+  },
+  "8": {
+    "premise": "A 60-year-old male underwent knee replacement surgery on June 5, 2023. At his postoperative follow-up on May 30, 2023, he reported no complications and good mobility.",
+    "statement": "The postoperative follow-up date is correct even though it occurred before the surgery date.",
+    "label": false,
+    "responses": [
+      "A postoperative follow-up, by definition, occurs after a surgery. The surgery date is June 5, 2023, and the follow-up date is listed as May 30, 2023, which is before the surgery. Therefore, the postoperative follow-up date is logically and factually incorrect.\noutput: False",
+      "A postoperative follow-up appointment, by definition, occurs after (\"post-\") an operation. The premise states the surgery was on June 5, 2023, and the postoperative follow-up was on May 30, 2023. It is impossible for a postoperative follow-up to take place before the surgery has been performed. Therefore, the date is incorrect.\n\noutput: False",
+      "False",
+      "output: False",
+      "False",
+      "False",
+      "A postoperative follow-up, by definition, occurs after a surgical operation. The surgery was on June 5, 2023. A follow-up on May 30, 2023, would be preoperative (before the surgery), not postoperative. Therefore, the postoperative follow-up date is incorrect because it occurred before the surgery.\n\noutput: False",
+      "output: False",
+      "False",
+      "False"
+    ]
+  },
+  "9": {
+    "premise": "A 50-year-old man presents with worsening fatigue, hypotension, and hyperpigmentation of the skin. Laboratory results reveal low cortisol and elevated ACTH levels. The physician diagnoses the patient with depression and prescribes SSRIs.",
+    "statement": "The diagnosis of depression is correct despite symptoms and lab results consistent with Addison’s disease.",
+    "label": false,
+    "responses": [
+      "output: False",
+      "output: False",
+      "The patient's presentation of worsening fatigue, hypotension, hyperpigmentation, low cortisol, and elevated ACTH are classic signs and lab findings for primary adrenal insufficiency, also known as Addison's disease. The hyperpigmentation is caused by the elevated ACTH, which also stimulates melanocytes. While fatigue and mood changes can be symptoms of depression, the constellation of physical signs (hypotension, hyperpigmentation) and specific laboratory results (low cortisol, high ACTH) strongly points to Addison's disease as the underlying cause. Diagnosing depression and failing to treat the life-threatening adrenal insufficiency would be a significant medical error. Therefore, the diagnosis of depression is incorrect.\n\noutput: False",
+      "output: False",
+      "False",
+      "False",
+      "output: False",
+      "The symptoms of worsening fatigue, hypotension, and hyperpigmentation, combined with laboratory findings of low cortisol and elevated ACTH, are the classic clinical presentation of primary adrenal insufficiency, also known as Addison's disease. The elevated ACTH is the body's attempt to stimulate the adrenal glands to produce cortisol, confirming the problem originates in the adrenal glands themselves. While depression and fatigue are symptoms of Addison's disease, diagnosing primary depression and failing to treat the underlying life-threatening endocrine disorder is a misdiagnosis. The correct diagnosis is Addison's disease, and the treatment would be hormone replacement therapy, not SSRIs. Therefore, the statement that the diagnosis of depression is correct is false.\n\noutput: False",
+      "output: False",
+      "output: False"
+    ]
+  },
+  "10": {
+    "premise": "A 22-year-old woman arrives at the emergency department after fainting during exercise. ECG reveals a prolonged QT interval. Her symptoms are attributed to dehydration, and she is discharged with fluids and electrolyte tablets.",
+    "statement": "The diagnosis of dehydration is correct despite findings suggesting long QT syndrome.",
+    "label": false,
+    "responses": [
+      "Syncope (fainting) during exercise is a major red flag for a life-threatening cardiac condition. A prolonged QT interval on an ECG can be caused by electrolyte abnormalities associated with dehydration (an acquired long QT), but it is also the hallmark of congenital Long QT Syndrome, a genetic disorder that can cause sudden cardiac death, particularly in response to exercise. Given the combination of syncope during exercise and a prolonged QT interval in a young person, the standard of care would be to admit the patient for a full cardiac workup to rule out congenital Long QT Syndrome. Attributing these serious findings solely to dehydration and discharging the patient is a potentially fatal misdiagnosis. Therefore, the diagnosis of dehydration is not considered correct or complete because it fails to address the more life-threatening and likely underlying cause.\n\noutput: False",
+      "output: False",
+      "A prolonged QT interval, especially when associated with syncope during exercise in a young person, is a major red flag for congenital Long QT Syndrome, a potentially fatal cardiac arrhythmia disorder. While dehydration and associated electrolyte abnormalities (like hypokalemia or hypomagnesemia) can cause a prolonged QT interval (an acquired long QT), it is crucial to rule out the congenital form. Discharging a patient with this presentation without a thorough workup, including re-evaluating the QT interval after hydration and electrolyte correction, and a cardiology consultation, would be a departure from the standard of care. To assert that the diagnosis of dehydration is correct and sufficient is to ignore a life-threatening alternative diagnosis that perfectly fits the clinical picture. Therefore, the statement is not factually correct from a medical safety and diagnostic standpoint.\n\noutput: False",
+      "Fainting (syncope) during exercise combined with a prolonged QT interval on an ECG is a classic presentation for Long QT Syndrome (LQTS), a serious and potentially fatal cardiac arrhythmia disorder. While dehydration and electrolyte abnormalities can cause an *acquired* prolonged QT interval, it is medically incorrect and dangerous to assume this is the cause without a thorough investigation to rule out congenital (genetic) LQTS, especially given the high-risk feature of exertional syncope. The proper course of action would be admission for cardiac monitoring, cardiology consultation, and further workup. Discharging the patient with a diagnosis of dehydration represents a potential misdiagnosis of a life-threatening condition. Therefore, the statement that the diagnosis of dehydration is correct is not supported by standard medical practice.\n\noutput: False",
+      "False",
+      "A prolonged QT interval in a young person who faints during exercise is a classic presentation for congenital Long QT Syndrome (LQTS), a potentially lethal cardiac arrhythmia disorder. While dehydration and electrolyte abnormalities can cause a prolonged QT interval (acquired long QT), discharging a patient with these findings without a thorough cardiac evaluation to rule out congenital LQTS is a significant deviation from the standard of care and is extremely dangerous. The symptoms are major red flags for a serious underlying cardiac condition, not just simple dehydration. Therefore, asserting that the diagnosis of dehydration is correct is medically unsound as it dismisses the more life-threatening and highly probable differential diagnosis.\n\noutput: False",
+      "A prolonged QT interval combined with syncope (fainting) during exercise is a classic and highly concerning presentation for congenital Long QT Syndrome (LQTS), a potentially lethal genetic heart condition. While severe dehydration and electrolyte abnormalities can cause an acquired prolonged QT interval, it is a diagnosis of exclusion. Given the life-threatening nature of congenital LQTS, a patient with these findings requires urgent cardiology consultation and further investigation, not immediate discharge. Attributing these serious signs solely to dehydration without ruling out a more dangerous underlying condition is medically inappropriate and represents a potential misdiagnosis. Therefore, the statement that the diagnosis of dehydration is correct is not supported by the clinical information and established medical standards of care.\n\noutput: False",
+      "False",
+      "True",
+      "A prolonged QT interval, especially when associated with syncope (fainting) during exercise, is a classic and highly concerning presentation for Long QT Syndrome (LQTS). LQTS is a serious heart rhythm disorder that can cause fast, chaotic heartbeats (arrhythmias) leading to sudden death. While dehydration can cause electrolyte imbalances (like hypokalemia or hypomagnesemia) that can prolong the QT interval (acquired LQTS), attributing exertional syncope in the presence of a long QT interval solely to dehydration and discharging the patient is extremely dangerous and goes against standard medical practice. The combination of these findings mandates urgent cardiology consultation and admission for further investigation to rule out congenital LQTS and prevent a potentially fatal event. Therefore, the diagnosis of dehydration is an insufficient and incorrect primary diagnosis for this life-threatening presentation.\n\noutput: False"
+    ]
+  }
+}

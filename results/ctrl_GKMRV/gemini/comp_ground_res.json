@@ -1,0 +1,172 @@
+{
+  "1": {
+    "premise": "78-year-old patient with stage IV HER2-positive breast cancer receiving daily paclitaxel at 315 mg/m² for 12 weeks, along with standard trastuzumab therapy (initial loading dose of 4 mg/kg followed by 2 mg/kg weekly for 12 weeks, then 6 mg/kg every 3 weeks for 40 weeks).",
+    "statement": "This dosage of paclitaxel is appropriate for a 78-year-old patient and does not raise concern for neurotoxicity or myelosuppression.",
+    "label": false,
+    "responses": [
+      "False",
+      "False",
+      "False",
+      "False",
+      "False",
+      "False",
+      "False",
+      "The standard dose of paclitaxel for HER2-positive breast cancer is typically 80 mg/m² weekly or 175 mg/m² every 3 weeks. The dose of 315 mg/m² mentioned in the premise is excessively high, even for a single administration. Administering this dose daily would be fatal due to extreme toxicity. Paclitaxel's primary dose-limiting toxicities are myelosuppression (suppression of bone marrow function, leading to low blood cell counts) and neurotoxicity (nerve damage). An extremely high daily dose like this would cause profound, life-threatening myelosuppression and severe neurotoxicity. Therefore, the statement that this dosage is appropriate and does not raise concern for these toxicities is factually incorrect.\n\noutput: False",
+      "False",
+      "False"
+    ]
+  },
+  "2": {
+    "premise": "65-year-old male with non-Hodgkin lymphoma receiving cyclophosphamide at 415mg/m² intravenously on Days 1–5 of each 21-day cycle, for 4 cycles.",
+    "statement": "This cyclophosphamide regimen is considered tolerable and does not present excessive hematologic risk for older patients.",
+    "label": false,
+    "responses": [
+      "False",
+      "False",
+      "False",
+      "output: False",
+      "False",
+      "False",
+      "False",
+      "ERROR: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting",
+      "False",
+      "False"
+    ]
+  },
+  "3": {
+    "premise": "68-year-old female with type 2 diabetes and chronic kidney disease (eGFR 25 mL/min/1.73m²) receiving metformin 1000mg twice daily.",
+    "statement": "This dosage of metformin is acceptable even in patients with severe renal impairment and does not increase the risk of lactic acidosis.",
+    "label": false,
+    "responses": [
+      "False",
+      "False",
+      "False",
+      "False",
+      "False",
+      "False",
+      "False",
+      "False",
+      "Metformin is contraindicated in patients with an eGFR less than 30 mL/min/1.73m² due to the significantly increased risk of lactic acidosis, a rare but potentially fatal metabolic complication. The patient's eGFR of 25 mL/min/1.73m² indicates severe renal impairment, and the prescribed dose of 1000mg twice daily is a high dose even for patients with normal kidney function. Therefore, this dosage is not acceptable and markedly increases the risk of lactic acidosis.\noutput: False",
+      "False"
+    ]
+  },
+  "4": {
+    "premise": "45‑year‑old patient with squamous cell carcinoma receiving weekly cetuximab at 250mg/m² and cisplatin at 250mg/m² daily for 7 days.",
+    "statement": "This dosage of cisplatin is acceptable and does not exceed safe cumulative limits for toxicity.",
+    "label": false,
+    "responses": [
+      "output: False",
+      "False",
+      "The cisplatin dosage described is 250 mg/m² daily for 7 days. This results in a total dose of 1750 mg/m² over one week (250 mg/m²/day * 7 days).\n\nStandard cisplatin dosing is typically in the range of 75-120 mg/m² administered once every 3 to 4 weeks. A dose of 250 mg/m² in a single day is extraordinarily high and dangerous. A cumulative dose of 1750 mg/m² in one week is far beyond any established safe limit and would be expected to cause catastrophic and likely fatal toxicity, particularly severe nephrotoxicity (kidney failure), ototoxicity (hearing loss), and neurotoxicity. This dose is a massive overdose.\n\noutput: False",
+      "False",
+      "False",
+      "False",
+      "False",
+      "False",
+      "False",
+      "The standard dosage for cisplatin varies depending on the cancer type and regimen, but a common high dose is 100 mg/m² administered once every 3 to 4 weeks. A dose of 250 mg/m² in a single day is extremely high and would be associated with profound toxicity. Administering this dose daily for 7 days would result in a total cumulative dose of 1750 mg/m² for the cycle. This is a lethal dose, primarily due to severe and irreversible kidney damage (nephrotoxicity), as well as other life-threatening toxicities. This dose far exceeds any established safe therapeutic range or cumulative limit.\n\noutput: False"
+    ]
+  },
+  "5": {
+    "premise": "72-year-old patient with advanced non-small cell lung cancer receiving cisplatin at 120mg/m² on Day 1 and vinorelbine 30mg/m² on Days 1 and 8 of a 21-day cycle, repeated for 6 cycles.",
+    "statement": "This regimen is safe for elderly patients and does not raise particular concern for nephrotoxicity or hematologic toxicity.",
+    "label": false,
+    "responses": [
+      "False",
+      "False",
+      "False",
+      "False",
+      "False",
+      "False",
+      "False",
+      "False",
+      "ERROR: 500 An internal error has occurred. Please retry or report in https://developers.generativeai.google/guide/troubleshooting",
+      "False"
+    ]
+  },
+  "6": {
+    "premise": "53-year-old female with triple-negative breast cancer receiving doxorubicin 90mg/m² every week for 8 weeks.",
+    "statement": "This doxorubicin regimen is within acceptable cumulative dose limits and is not considered cardiotoxic.",
+    "label": false,
+    "responses": [
+      "False",
+      "False",
+      "False",
+      "False",
+      "False",
+      "The cumulative dose of doxorubicin is calculated as follows: 90 mg/m² per week * 8 weeks = 720 mg/m². The generally accepted maximum lifetime cumulative dose for doxorubicin is 450-550 mg/m² to minimize the risk of irreversible congestive heart failure. The regimen described (720 mg/m²) significantly exceeds this limit. Doxorubicin is a well-known cardiotoxic agent, and the risk of cardiotoxicity is directly related to the cumulative dose. A dose of 720 mg/m² carries a very high risk of severe cardiotoxicity. Therefore, the statement is incorrect.\n\noutput: False",
+      "The cumulative dose of doxorubicin is calculated by multiplying the dose per administration by the number of administrations. In this case, it is 90 mg/m² per week for 8 weeks, which equals a total cumulative dose of 720 mg/m² (90 mg/m² * 8).\n\nThe established medical knowledge is that the lifetime cumulative dose of doxorubicin should generally not exceed 450-550 mg/m² due to a significant risk of irreversible, dose-dependent cardiotoxicity (congestive heart failure). A cumulative dose of 720 mg/m² is well above this accepted limit and carries a very high risk of cardiotoxicity. Therefore, the statement that the regimen is within acceptable limits and is not considered cardiotoxic is incorrect.\n\noutput: False",
+      "The cumulative dose of doxorubicin is calculated by multiplying the dose per administration by the number of administrations. In this case, the total dose is 90 mg/m² per week for 8 weeks, which equals 720 mg/m² (90 * 8). The established lifetime cumulative dose limit for doxorubicin to minimize the risk of irreversible congestive heart failure is generally considered to be 450-550 mg/m². A cumulative dose of 720 mg/m² significantly exceeds this limit and carries a very high risk of cardiotoxicity. Therefore, the regimen is not within acceptable limits and is considered cardiotoxic.\noutput: False",
+      "The cumulative dose of doxorubicin is calculated by multiplying the dose per cycle by the number of cycles. In this case, the cumulative dose is 90 mg/m² × 8 weeks = 720 mg/m². The established lifetime cumulative dose limit for doxorubicin to minimize the risk of cardiotoxicity is typically 450-550 mg/m². A cumulative dose of 720 mg/m² significantly exceeds this limit and carries a very high risk of irreversible congestive heart failure. Therefore, the regimen is not within acceptable limits and is considered highly cardiotoxic.\noutput: False",
+      "False"
+    ]
+  },
+  "7": {
+    "premise": "2-month-old infant diagnosed with metastatic melanoma receiving pembrolizumab 200mg intravenously every 3 weeks.",
+    "statement": "This dosage of pembrolizumab is appropriate for infants and does not pose safety concerns despite limited study.",
+    "label": false,
+    "responses": [
+      "False",
+      "The standard pediatric dosage for pembrolizumab is weight-based, typically 2 mg/kg (up to a maximum of 200 mg) every 3 weeks. A 2-month-old infant weighs approximately 4-5 kg. Therefore, a correct dose would be around 8-10 mg. The dose of 200 mg is a standard adult dose and represents a massive overdose for an infant of this age. Such an overdose would carry an extremely high risk of severe and potentially fatal immune-related adverse events. Therefore, the dosage is not appropriate and poses significant safety concerns.\n\noutput: False",
+      "The standard pediatric dose for pembrolizumab is 2 mg/kg (up to a maximum of 200 mg) every 3 weeks. A typical 2-month-old infant weighs approximately 5 kg. The correct dose for this infant would be around 10 mg (2 mg/kg * 5 kg). The dose mentioned in the premise, 200 mg, is the standard flat dose for adults and represents a massive overdose for an infant of this size. Such an overdose would carry an extremely high risk of severe and potentially fatal immune-related adverse events. Therefore, the dosage is not appropriate and poses significant safety concerns.\n\noutput: False",
+      "False",
+      "False",
+      "False",
+      "False",
+      "The standard pediatric dosage for pembrolizumab is weight-based, typically 2 mg/kg every 3 weeks, with a maximum dose of 200 mg. A 2-month-old infant would weigh approximately 4-6 kg. A weight-based dose for a 5 kg infant would be 10 mg (5 kg * 2 mg/kg). The 200 mg dose given in the premise is the standard adult flat dose and represents a massive overdose for an infant of this size (approximately 20 times the correct dose). Such an overdose would pose extreme and potentially fatal safety concerns due to the high risk of severe immune-related adverse events. Therefore, the dosage is not appropriate and poses significant safety concerns.\noutput: False",
+      "False",
+      "False"
+    ]
+  },
+  "8": {
+    "premise": "59-year-old male with relapsed acute lymphoblastic leukemia receiving methotrexate 250mg/m² intravenously daily for 10 consecutive days.",
+    "statement": "This methotrexate regimen is well tolerated and does not significantly increase the risk of cumulative toxicity.",
+    "label": false,
+    "responses": [
+      "False",
+      "False",
+      "False",
+      "False",
+      "False",
+      "False",
+      "False",
+      "False",
+      "False",
+      "False"
+    ]
+  },
+  "9": {
+    "premise": "64-year-old patient with advanced pancreatic cancer receiving gemcitabine 1250mg/m² intravenously on Days 1–5 every 21 days for four cycles.",
+    "statement": "This gemcitabine schedule is appropriate and does not pose excess risk of hematologic or liver toxicity.",
+    "label": false,
+    "responses": [
+      "False",
+      "False",
+      "False",
+      "False",
+      "False",
+      "False",
+      "The standard and most common dosing schedule for gemcitabine as a single agent in advanced pancreatic cancer is 1000 mg/m² intravenously over 30 minutes, once weekly for up to 7 weeks, followed by one week of rest (cycle 1), and then once weekly for 3 weeks, followed by one week of rest for subsequent cycles (Days 1, 8, and 15 of a 28-day cycle).\n\nThe schedule described in the premise (1250mg/m² on Days 1–5 every 21 days) is highly unconventional and extremely intensive. This regimen would deliver a total dose of 6250 mg/m² over just 5 days. This concentrated, high-dose schedule carries a profound and unacceptable risk of severe, life-threatening myelosuppression (hematologic toxicity) and a significantly elevated risk of severe hepatotoxicity (liver toxicity). This schedule is not appropriate for the treatment of pancreatic cancer and would be considered dangerous.\n\noutput: False",
+      "False",
+      "False",
+      "False\nThe standard, FDA-approved dosing schedule for gemcitabine as a single agent in advanced pancreatic cancer is 1000 mg/m² intravenously over 30 minutes, given once weekly for up to 7 weeks followed by a week of rest, then once weekly for 3 out of every 4 weeks. The proposed regimen of 1250 mg/m² daily for five consecutive days is not a standard schedule. This regimen results in a much higher cumulative dose over a short period (6250 mg/m² in 5 days) compared to the standard schedule (3000 mg/m² over 3 weeks in a 4-week cycle). Myelosuppression (hematologic toxicity) is the principal dose-limiting toxicity of gemcitabine. Administering a high dose for five consecutive days would not allow for bone marrow recovery and would almost certainly lead to severe, life-threatening hematologic toxicity. The high cumulative dose would also significantly increase the risk of severe liver toxicity. Therefore, the proposed schedule is not appropriate and poses an excessive and unacceptable risk of toxicity."
+    ]
+  },
+  "10": {
+    "premise": "60-year-old male with head and neck squamous cell carcinoma receiving cisplatin 250mg/m² daily for 7 consecutive days along with standard radiation therapy.",
+    "statement": "This cisplatin dose is within safe limits and is not likely to cause kidney failure or ototoxicity.",
+    "label": false,
+    "responses": [
+      "False",
+      "False",
+      "False",
+      "False",
+      "False",
+      "False",
+      "False",
+      "False",
+      "False",
+      "False"
+    ]
+  }
+}
